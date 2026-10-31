@@ -57,3 +57,8 @@ Zones need `input.pair_with_output(output)` (spec key `pairs`), plus items on th
 - Sockets that are disabled for the current mode/data type are still in `node.inputs` with the same name. The builder picks the **enabled** one. Set `data_type`/`mode` props first (the builder sets props before links).
 - `nt.interface.new_socket(...)` is the 4.0+ API (`ng.inputs.new` is gone).
 - Exporters see the **evaluated** mesh. Instances become glTF instancing (`export_gpu_instances`) or are realized on export.
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`blender-lab-mcp--blender-geometry-nodes`](references/merged/blender-lab-mcp--blender-geometry-nodes/README.md) — Blender 5.x geometry nodes — procedural modeling, scattering, mesh/curve/volume ops, simulation zones, repeat zones, Bone Info, Font socket, UV nodes, volume gr _(from [ra100/blender-claude-plugin](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-geometry-nodes))_

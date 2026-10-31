@@ -180,3 +180,8 @@ Python 3.11+, typing module, mypy, pytest, black, ruff, dataclasses, async/await
 Maintained by [@jeffallan](https://github.com/jeffallan), Principal Consultant at [Synergetic Solutions](https://synergetic.solutions)
 
 [Documentation](https://jeffallan.github.io/claude-skills/skills/language/python-pro/)
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`ecc-python-patterns`](references/merged/ecc-python-patterns/README.md) — Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient, and maintainable Python applications. Use when writing or revie _(from [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/python-patterns))_

@@ -155,3 +155,8 @@ PostgreSQL 12-16, EXPLAIN ANALYZE, B-tree/GIN/GiST/BRIN indexes, JSONB operators
 Maintained by [@jeffallan](https://github.com/jeffallan), Principal Consultant at [Synergetic Solutions](https://synergetic.solutions)
 
 [Documentation](https://jeffallan.github.io/claude-skills/skills/infrastructure/postgres-pro/)
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`ecc-postgres-patterns`](references/merged/ecc-postgres-patterns/README.md) — PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices. Use when designing PostgreSQL sche _(from [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/postgres-patterns))_

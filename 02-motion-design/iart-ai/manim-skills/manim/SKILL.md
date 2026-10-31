@@ -134,3 +134,8 @@ manim -qm scene.py MyScene --format=gif   # GIF for a README demo
 - `references/math-and-text.md` — Text vs MarkupText vs Tex vs MathTex, raw strings, substring coloring (`set_color_by_tex`, `substrings_to_isolate`, `{{ }}`), `TransformMatchingTex` term morphs, and LaTeX preamble/packages.
 - `references/graphs-and-updaters.md` — `Axes`/`NumberPlane`, `plot`, `get_area`, `c2p`/`p2c`, `ValueTracker`, `always_redraw`, `add_updater`, a dot tracing a curve, and animated counters.
 - `references/3d-and-camera.md` — `ThreeDScene`, `set_camera_orientation`, `ThreeDAxes`, `Surface`/parametric, ambient camera rotation, and `MovingCameraScene` pushes/follows.
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`ecc-manim-video`](references/merged/ecc-manim-video/README.md) — Build reusable Manim explainers for technical concepts, graphs, system diagrams, and product walkthroughs, then hand off to the wider ECC video stack if needed. _(from [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/manim-video))_

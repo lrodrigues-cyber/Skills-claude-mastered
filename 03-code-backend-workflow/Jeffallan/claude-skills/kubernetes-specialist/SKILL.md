@@ -244,3 +244,8 @@ When implementing Kubernetes resources, provide:
 Maintained by [@jeffallan](https://github.com/jeffallan), Principal Consultant at [Synergetic Solutions](https://synergetic.solutions)
 
 [Documentation](https://jeffallan.github.io/claude-skills/skills/infrastructure/kubernetes-specialist/)
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`ecc-kubernetes-patterns`](references/merged/ecc-kubernetes-patterns/README.md) — Kubernetes workload patterns, resource management, RBAC, probes, autoscaling, ConfigMap/Secret handling, and kubectl debugging for production-grade deployments. _(from [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/kubernetes-patterns))_

@@ -126,3 +126,8 @@ test('checkout flow', async ({ page }) => {
 // 5. Inspect page state
 await page.pause();  // Pauses execution, opens inspector
 ```
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`ecc-e2e-testing`](references/merged/ecc-e2e-testing/README.md) — Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies. Use when writing Playwrigh _(from [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/e2e-testing))_

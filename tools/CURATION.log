@@ -1,0 +1,71 @@
+merge  01 Owl-Listener/designer-skills/motion-system -> affaan-m/everything-claude-code/ecc-motion-foundations (UI motion tokens: ECC version is code-level and complete)
+merge  01 Owl-Listener/designer-skills/animation-principles -> affaan-m/everything-claude-code/ecc-motion-foundations (subset of motion foundations)
+merge  01 iart-ai/web-animation-skills/gsap-web -> greensock/gsap-skills/gsap-core (official GreenSock skill wins)
+merge  01 iart-ai/webgl-animation-skills/threejs-animation -> CloudAI-X/threejs-skills/threejs-animation (CloudAI-X version is deeper)
+merge  01 Owl-Listener/designer-skills/micro-interaction-spec -> iart-ai/web-animation-skills/micro-interaction (iart version has code + refs)
+merge  01 Owl-Listener/designer-skills/responsive-design -> wshobson/agents/responsive-design (wshobson version has references)
+merge  01 Owl-Listener/designer-skills/accessibility-audit -> accesslint/claude-marketplace/accessibility-audit (accesslint follows WCAG-EM with tooling)
+merge  01 wshobson/agents/accessibility-compliance -> accesslint/claude-marketplace/accessibility-audit (same audit scope)
+merge  01 wshobson/agents/wcag-audit-patterns -> accesslint/claude-marketplace/accessibility-audit (same audit scope)
+merge  01 affaan-m/everything-claude-code/ecc-react-performance -> vercel-labs/agent-skills/react-best-practices (Vercel rules are the reference)
+merge  02 iart-ai/lower-thirds-skills/lower-thirds -> iart-ai/tiktok-video-skills/lower-thirds (tiktok version is 3x deeper)
+merge  02 affaan-m/everything-claude-code/ecc-manim-video -> iart-ai/manim-skills/manim (iart version is deeper)
+merge  02 haidrrrry/claude-remotion-skill/claude-remotion -> iart-ai/motion-design-skills/remotion-video (same scope, iart version tighter)
+merge  03 Jeffallan/claude-skills/debugging-wizard -> obra/superpowers/systematic-debugging (superpowers debugging is the reference)
+merge  03 wshobson/agents/debugging-strategies -> obra/superpowers/systematic-debugging (same scope)
+merge  03 Jeffallan/claude-skills/code-reviewer -> wshobson/agents/code-review-excellence (deeper)
+merge  03 wshobson/agents/api-design-principles -> Jeffallan/claude-skills/api-designer (same scope)
+merge  03 affaan-m/everything-claude-code/ecc-api-design -> Jeffallan/claude-skills/api-designer (kept as REST deep-dive reference)
+merge  03 affaan-m/everything-claude-code/ecc-architecture-decision-records -> wshobson/agents/architecture-decision-records (same scope)
+merge  03 affaan-m/everything-claude-code/ecc-postgres-patterns -> Jeffallan/claude-skills/postgres-pro (postgres-pro has references)
+merge  03 wshobson/agents/sql-optimization-patterns -> Jeffallan/claude-skills/database-optimizer (same scope)
+merge  03 wshobson/agents/database-migration -> affaan-m/everything-claude-code/ecc-database-migrations (ECC covers expand-contract + per-ORM)
+merge  03 affaan-m/everything-claude-code/ecc-kubernetes-patterns -> Jeffallan/claude-skills/kubernetes-specialist (progressive disclosure version wins)
+merge  03 affaan-m/everything-claude-code/ecc-deployment-patterns -> wshobson/agents/deployment-pipeline-design (same scope)
+merge  03 affaan-m/everything-claude-code/ecc-fastapi-patterns -> Jeffallan/claude-skills/fastapi-expert (same scope)
+merge  03 wshobson/agents/fastapi-templates -> Jeffallan/claude-skills/fastapi-expert (same scope)
+merge  03 affaan-m/everything-claude-code/ecc-nestjs-patterns -> Jeffallan/claude-skills/nestjs-expert (same scope)
+merge  03 affaan-m/everything-claude-code/ecc-rust-patterns -> Jeffallan/claude-skills/rust-engineer (same scope)
+merge  03 affaan-m/everything-claude-code/ecc-golang-patterns -> Jeffallan/claude-skills/golang-pro (same scope)
+merge  03 affaan-m/everything-claude-code/ecc-python-patterns -> Jeffallan/claude-skills/python-pro (same scope)
+merge  03 affaan-m/everything-claude-code/ecc-typescript-patterns -> Jeffallan/claude-skills/typescript-pro (same scope)
+merge  03 wshobson/agents/microservices-patterns -> Jeffallan/claude-skills/microservices-architect (same scope)
+merge  03 wshobson/agents/rag-implementation -> Jeffallan/claude-skills/rag-architect (same scope)
+merge  03 Jeffallan/claude-skills/mcp-developer -> anthropics/skills/mcp-builder (official Anthropic skill wins)
+merge  03 affaan-m/everything-claude-code/ecc-e2e-testing -> wshobson/agents/e2e-testing-patterns (same scope)
+merge  03 openai/skills/openai-playwright -> lackeyjb/playwright-skill/playwright-skill (Codex-oriented duplicate)
+merge  03 Jeffallan/claude-skills/security-reviewer -> affaan-m/everything-claude-code/ecc-security-review (same scope)
+merge  03 wshobson/agents/error-handling-patterns -> affaan-m/everything-claude-code/ecc-error-handling (ECC is broader)
+merge  03 affaan-m/everything-claude-code/ecc-git-workflow -> wshobson/agents/git-advanced-workflows (ECC version >700 lines)
+merge  03 affaan-m/everything-claude-code/ecc-tdd-workflow -> obra/superpowers/test-driven-development (superpowers TDD is the reference)
+merge  03 mattpocock/skills/claude-handoff -> mattpocock/skills/handoff (in-progress duplicate)
+merge  03 affaan-m/everything-claude-code/ecc-eval-harness -> muratcankoylan/Agent-Skills-for-Context-Engineering/evaluation (same scope)
+merge  03 affaan-m/everything-claude-code/ecc-plan-orchestrate -> obra/superpowers/writing-plans (ECC-coupled duplicate)
+merge  02 ra100/blender-claude-plugin/blender-lab-mcp--blender-animation-rigging -> EL4CTEO/blender-skills/blender-character-rigging (Blender Lab MCP API reference (official MCP, Blender 5.1+))
+merge  02 ra100/blender-claude-plugin/blender-lab-mcp--blender-geometry-nodes -> EL4CTEO/blender-skills/blender-geometry-nodes (Blender Lab MCP API reference (official MCP, Blender 5.1+))
+merge  02 ra100/blender-claude-plugin/blender-lab-mcp--blender-modeling-modifiers -> EL4CTEO/blender-skills/blender-hardsurface-modeling (Blender Lab MCP API reference (official MCP, Blender 5.1+))
+merge  02 ra100/blender-claude-plugin/blender-lab-mcp--blender-physics-simulation -> EL4CTEO/blender-skills/blender-simulation (Blender Lab MCP API reference (official MCP, Blender 5.1+))
+merge  02 ra100/blender-claude-plugin/blender-lab-mcp--blender-scene-rendering -> EL4CTEO/blender-skills/blender-rendering (Blender Lab MCP API reference (official MCP, Blender 5.1+))
+merge  02 ra100/blender-claude-plugin/blender-lab-mcp--blender-shader-nodes -> EL4CTEO/blender-skills/blender-pbr-materials (Blender Lab MCP API reference (official MCP, Blender 5.1+))
+drop   03 wshobson/agents/context-driven-development (needs the Conductor plugin commands)
+drop   03 wshobson/agents/track-management (needs the Conductor plugin commands)
+drop   03 wshobson/agents/workflow-patterns (needs the Conductor plugin commands)
+drop   01 affaan-m/everything-claude-code/ecc-frontend-design-direction (ECC-house style, covered by frontend-design/impeccable/taste-skill)
+drop   03 affaan-m/everything-claude-code/ecc-skill-stocktake (only audits an ECC install)
+drop   03 affaan-m/everything-claude-code/ecc-continuous-learning-v2 (requires ECC hook runtime)
+drop   02 Owl-Listener/designer-skills/ui-animation-principles (duplicate copy (kept iart-ai:animation-principles))
+drop   02 Owl-Listener/designer-skills/ui-motion-system (duplicate copy)
+move   affaan-m:ecc-motion-foundations -> 01-web-design/affaan-m/everything-claude-code/ecc-motion-foundations
+move   affaan-m:ecc-motion-patterns -> 01-web-design/affaan-m/everything-claude-code/ecc-motion-patterns
+move   affaan-m:ecc-motion-advanced -> 01-web-design/affaan-m/everything-claude-code/ecc-motion-advanced
+move   affaan-m:ecc-taste -> 02-motion-design/affaan-m/everything-claude-code/ecc-video-taste
+move   affaan-m:ecc-taste-application -> 02-motion-design/affaan-m/everything-claude-code/ecc-video-taste-application
+move   affaan-m:ecc-taste-distillation -> 02-motion-design/affaan-m/everything-claude-code/ecc-video-taste-distillation
+move   affaan-m:ecc-ui-demo -> 02-motion-design/affaan-m/everything-claude-code/ecc-ui-demo
+move   affaan-m:ecc-remotion-video-creation -> 02-motion-design/affaan-m/everything-claude-code/remotion-best-practices
+move   charlie947:launch-video -> 02-motion-design/charlie947/motion-graphics-skills/saas-launch-video
+move   ra100:blender-lab-mcp--blender-compositing-nodes -> 02-motion-design/ra100/blender-claude-plugin/blender-compositing-nodes
+move   ra100:blender-lab-mcp--blender-python-scripting -> 02-motion-design/ra100/blender-claude-plugin/blender-python-scripting
+fold   11 Owl-Listener skills -> ux-laws
+fold   6 Owl-Listener skills -> gestalt-principles
+fold   7 Owl-Listener skills -> visual-critique

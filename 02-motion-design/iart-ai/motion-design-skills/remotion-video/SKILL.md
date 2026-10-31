@@ -192,3 +192,8 @@ npx remotion render Promo out/promo.mp4 --props='{"title":"Launch"}'
 ## Reference files
 
 - `references/api-and-patterns.md` — `interpolate` options and `Easing`, spring config recipes, Sequence/Series scheduling, `<Audio>` + beat-sync, parametric `defaultProps` with zod + `calculateMetadata`, CLI flags, programmatic `@remotion/renderer` batch rendering, and embedding GLSL shaders / Three.js (`@remotion/three`).
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`claude-remotion`](references/merged/claude-remotion/README.md) — Create and edit professional motion graphics videos with Remotion (React-based video). Use this skill EVERY time the user wants to create a video, edit a video, _(from [haidrrrry/claude-remotion-skill](https://github.com/haidrrrry/claude-remotion-skill/tree/HEAD/remotion-motion-graphics))_

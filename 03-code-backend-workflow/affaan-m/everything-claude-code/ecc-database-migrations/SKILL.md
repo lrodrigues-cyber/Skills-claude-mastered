@@ -1,5 +1,5 @@
 ---
-name: database-migrations
+name: ecc-database-migrations
 description: "Safe, reversible database migration patterns: forward-only production changes, expand-contract zero-downtime renames, concurrent indexes, batched backfills, and per-tool workflows for PostgreSQL, Prisma, Drizzle, Kysely, Django, and golang-migrate. Use when writing a schema or data migration, adding a column or index to a large table, planning a rollback, or preparing a zero-downtime deploy."
 metadata:
   origin: ECC
@@ -428,3 +428,8 @@ Day 7: Migration drops old status column
 | Inline index on large table | Blocks writes during build | CREATE INDEX CONCURRENTLY |
 | Schema + data in one migration | Hard to rollback, long transactions | Separate migrations |
 | Dropping column before removing code | Application errors on missing column | Remove code first, drop column next deploy |
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`database-migration`](references/merged/database-migration/README.md) — Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures. Use when migrating databases, _(from [wshobson/agents](https://github.com/wshobson/agents/tree/HEAD/plugins/framework-migration/skills/database-migration))_

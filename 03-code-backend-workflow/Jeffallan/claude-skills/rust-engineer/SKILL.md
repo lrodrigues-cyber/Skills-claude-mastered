@@ -170,3 +170,8 @@ Rust 2021, Cargo, ownership/borrowing, lifetimes, traits, generics, async/await,
 Maintained by [@jeffallan](https://github.com/jeffallan), Principal Consultant at [Synergetic Solutions](https://synergetic.solutions)
 
 [Documentation](https://jeffallan.github.io/claude-skills/skills/language/rust-engineer/)
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`ecc-rust-patterns`](references/merged/ecc-rust-patterns/README.md) — Idiomatic Rust patterns, ownership, error handling, traits, concurrency, and best practices for building safe, performant applications. Use when writing or revi _(from [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/rust-patterns))_

@@ -1,5 +1,5 @@
 ---
-name: error-handling
+name: ecc-error-handling
 description: Patterns for robust error handling across TypeScript, Python, and Go. Covers typed errors, error boundaries, retries, circuit breakers, and user-facing error messages. Use when designing error types, retries, circuit breakers, or user-facing failure messages in TypeScript, Python, or Go.
 metadata:
   origin: ECC
@@ -375,3 +375,8 @@ Before merging any code that touches error handling:
 - [ ] Async functions surface errors to callers — no fire-and-forget without fallback
 - [ ] Retry logic only retries retriable errors (not 4xx client errors)
 - [ ] React components are wrapped in `ErrorBoundary` for rendering errors
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`error-handling-patterns`](references/merged/error-handling-patterns/README.md) — Master error handling patterns across languages including exceptions, Result types, error propagation, and graceful degradation to build resilient applications. _(from [wshobson/agents](https://github.com/wshobson/agents/tree/HEAD/plugins/developer-essentials/skills/error-handling-patterns))_

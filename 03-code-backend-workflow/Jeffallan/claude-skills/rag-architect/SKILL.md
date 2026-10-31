@@ -201,3 +201,8 @@ When designing RAG architecture, deliver:
 Maintained by [@jeffallan](https://github.com/jeffallan), Principal Consultant at [Synergetic Solutions](https://synergetic.solutions)
 
 [Documentation](https://jeffallan.github.io/claude-skills/skills/data-ml/rag-architect/)
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`rag-implementation`](references/merged/rag-implementation/README.md) — Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI,  _(from [wshobson/agents](https://github.com/wshobson/agents/tree/HEAD/plugins/llm-application-dev/skills/rag-implementation))_

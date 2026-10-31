@@ -1,6 +1,6 @@
 ---
 name: to-questionnaire
-description: Turn a decision you can't fully answer into a questionnaire for someone else to fill in.
+description: "Turn a decision you cannot fully answer into a questionnaire for someone else to fill in. Use when progress is blocked on input from a stakeholder, client or teammate."
 disable-model-invocation: true
 ---
 

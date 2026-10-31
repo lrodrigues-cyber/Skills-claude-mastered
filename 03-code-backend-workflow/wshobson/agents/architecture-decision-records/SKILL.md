@@ -164,3 +164,8 @@ adr link 2 "Complements" 1 "Is complemented by"
 - **Don't hide failures** - Rejected decisions are valuable
 - **Don't be vague** - Specific decisions, specific consequences
 - **Don't forget implementation** - ADR without action is waste
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`ecc-architecture-decision-records`](references/merged/ecc-architecture-decision-records/README.md) — Capture architectural decisions as numbered ADR markdown files in docs/adr/ with context, alternatives considered, consequences, and an index README. Use when t _(from [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/architecture-decision-records))_

@@ -328,3 +328,8 @@ Otherwise → not TDD
 ```
 
 No exceptions without your human partner's permission.
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`ecc-tdd-workflow`](references/merged/ecc-tdd-workflow/README.md) — Test-driven development workflow: write a failing test first, watch it fail, implement the smallest change to green, then refactor with 80%+ coverage across uni _(from [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/tdd-workflow))_

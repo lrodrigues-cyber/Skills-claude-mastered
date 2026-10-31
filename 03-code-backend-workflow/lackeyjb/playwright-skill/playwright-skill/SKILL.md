@@ -213,3 +213,8 @@ authentication, tables, and retries.
 
 See [API_REFERENCE.md](API_REFERENCE.md) for network interception, API mocking,
 authentication state, video, visual checks, device emulation, and CI patterns.
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`openai-playwright`](references/merged/openai-playwright/README.md) — Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) vi _(from [openai/skills](https://github.com/openai/skills/tree/HEAD/skills/.curated/playwright))_

@@ -1,5 +1,5 @@
 ---
-name: blender-mcp
+name: blender-mcp-bridge
 description: Execute Python inside a live Blender session via the official Blender Labs MCP extension (TCP localhost:9876) — for building/testing Blender addons, inspecting scenes, running operators, and render-based visual verification. Use when working on Blender addons, when the user mentions Blender MCP, or when a task needs a running Blender instance.
 ---
 

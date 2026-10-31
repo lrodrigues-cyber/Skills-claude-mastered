@@ -220,3 +220,9 @@ REST architecture, OpenAPI 3.1, GraphQL, HTTP semantics, JSON:API, HATEOAS, OAut
 Maintained by [@jeffallan](https://github.com/jeffallan), Principal Consultant at [Synergetic Solutions](https://synergetic.solutions)
 
 [Documentation](https://jeffallan.github.io/claude-skills/skills/api-architecture/api-designer/)
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`api-design-principles`](references/merged/api-design-principles/README.md) — Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, reviewin _(from [wshobson/agents](https://github.com/wshobson/agents/tree/HEAD/plugins/backend-development/skills/api-design-principles))_
+- [`ecc-api-design`](references/merged/ecc-api-design/README.md) — REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs. Use _(from [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/api-design))_

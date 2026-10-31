@@ -167,3 +167,8 @@ Domain-driven design, bounded contexts, event storming, REST/gRPC, message queue
 Maintained by [@jeffallan](https://github.com/jeffallan), Principal Consultant at [Synergetic Solutions](https://synergetic.solutions)
 
 [Documentation](https://jeffallan.github.io/claude-skills/skills/api-architecture/microservices-architect/)
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`microservices-patterns`](references/merged/microservices-patterns/README.md) — Design microservices architectures with service boundaries, event-driven communication, and resilience patterns. Use when building distributed systems, decompos _(from [wshobson/agents](https://github.com/wshobson/agents/tree/HEAD/plugins/backend-development/skills/microservices-patterns))_

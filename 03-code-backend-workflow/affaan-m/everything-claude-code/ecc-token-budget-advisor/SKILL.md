@@ -1,5 +1,5 @@
 ---
-name: token-budget-advisor
+name: ecc-token-budget-advisor
 description: Offer a choice of response depth (25%/50%/75%/100%) with token estimates before answering, then answer at that level. Use when the user asks to control response length or token budget, such as 'token budget', 'short version', 'brief answer', 'respuesta corta vs larga', 'cuántos tokens', 'ahorrar tokens', 'responde al 50%', 'dame la versión corta', 'quiero controlar cuánto usas'. Skip if depth is already set this session or 'token' means an auth/payment token.
 metadata:
   origin: community
@@ -24,7 +24,7 @@ Intercept the response flow to offer the user a choice about response depth **be
 
 Use the repository's canonical context-budget heuristics to estimate the prompt's token count mentally.
 
-Use the same calibration guidance as [context-budget](../context-budget/SKILL.md):
+Use the same calibration guidance as [context-budget](../ecc-context-budget/SKILL.md):
 
 - prose: `words × 1.3`
 - code-heavy or mixed/code blocks: `chars / 4`

@@ -7,7 +7,7 @@ allowed-tools: Read, Glob, Grep, Bash, Skill, mcp__chrome-devtools__take_snapsho
 
 This is the semi-automated manual tier of a WCAG assessment: the checks that need interaction (keyboard, focus, state changes, reflow) or human review (focus visibility, error recovery, reading order), which a static rule engine can't decide. Work against the running page; use source only to map a finding to `file:line`. Locate and assess — don't fix (that's `accesslint:accessibility-fix`). The automated tier is `accesslint:accessibility-scan`; `accesslint:accessibility-audit` runs both under WCAG-EM.
 
-The shared rules — severity, the no-proxy boundary, high-risk patterns, conformance, grounding — are in [`../shared/methodology.md`](../shared/methodology.md). Read it when a call needs judgment. The rules that always apply are below.
+The shared rules — severity, the no-proxy boundary, high-risk patterns, conformance, grounding — are in [`_shared/shared/methodology.md`](_shared/shared/methodology.md). Read it when a call needs judgment. The rules that always apply are below.
 
 ## Grading
 

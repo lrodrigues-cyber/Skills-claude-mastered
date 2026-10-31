@@ -252,3 +252,8 @@ Full docs: [gsap.matchMedia()](https://gsap.com/docs/v3/GSAP/gsap.matchMedia/). 
 - ❌ Rely on the default **immediateRender: true** when stacking multiple **from()** or **fromTo()** tweens on the same property of the same target; set **immediateRender: false** on the later tweens so they animate correctly.
 - ❌ Use invalid or non-existent ease names; stick to documented eases.
 - ❌ Forget that **gsap.from()** uses the element’s current state as the end state; the initial values in the tween will be applied immediately unless `immediateRender: false` is in the `vars`.
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`gsap-web`](references/merged/gsap-web/README.md) — This skill should be used when the user asks to "build a scroll animation", "add ScrollTrigger", "pin a section while scrolling", "scrub an animation to scroll" _(from [iart-ai/web-animation-skills](https://github.com/iart-ai/web-animation-skills/tree/HEAD/skills/gsap-web))_

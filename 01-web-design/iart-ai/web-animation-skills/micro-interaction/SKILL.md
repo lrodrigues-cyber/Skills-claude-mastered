@@ -171,3 +171,8 @@ npx playwright screenshot --wait-for-timeout=400 "file://$PWD/demo.html?state=op
 
 - `references/framer-motion-recipes.md` — variants + stagger, `AnimatePresence` modes, `layout`/`layoutId` magic move, `Reorder` drag-to-sort, drag constraints, gesture composition, and `useReducedMotion`.
 - `references/css-recipes.md` — `@starting-style`, `transition-behavior: allow-discrete`, popover/dialog exit animation, keyframe spinners/toggles, `@property` for animatable custom properties, and `prefers-reduced-motion` patterns.
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`micro-interaction-spec`](references/merged/micro-interaction-spec/README.md) — Specify one micro-interaction completely — trigger, rules, feedback, loops, and modes. Use when handing a single interaction to engineering. For motion craft al _(from [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills/tree/HEAD/interaction-design/skills/micro-interaction-spec))_

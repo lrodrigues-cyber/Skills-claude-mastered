@@ -144,3 +144,8 @@ npx remotion render LowerThird out/demo.gif --codec=gif                # README 
 ## Reference files
 
 - `references/lower-third-component.md` — a complete runnable lower-third: a Remotion component with staggered spring enter, readable hold, and faster exit driven purely by frame; a typed theme object for brand lock; the list→many-instances sequencing pattern; a per-row batch render script; plus a dependency-free CSS/HTML version of the same design with mask-reveal and wipe-bar variants.
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`lower-thirds`](references/merged/lower-thirds/README.md) — Make animated lower thirds and other broadcast overlays (name straps, corner bugs, subscribe reminders, scripture or song titles) as transparent video files, dr _(from [iart-ai/lower-thirds-skills](https://github.com/iart-ai/lower-thirds-skills/tree/HEAD/skills/lower-thirds))_

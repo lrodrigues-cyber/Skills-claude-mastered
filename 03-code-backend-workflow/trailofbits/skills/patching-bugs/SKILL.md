@@ -9,7 +9,7 @@ description: Use when a known bug or falsifiable bug hypothesis in a local codeb
 
 Use for one named bug in the current local codebase when a reviewer needs a local patch
 commit, independent proof, regression check, and local review reports. See the
-[record contract](../../references/records.md) before creating the run directory.
+[record contract](_shared/references/records.md) before creating the run directory.
 
 ## When NOT to Use
 
@@ -37,7 +37,7 @@ passes root guidance to its agents.
    single falsifiable claim cannot be stated. Start `run.json` before dispatch.
    Include the `repair_scope` coverage plan defined in the record contract.
 
-   [Finding record schema](../../schemas/finding.schema.json):
+   [Finding record schema](_shared/schemas/finding.schema.json):
 ```json
 {
   "schema_version": 1,
@@ -51,7 +51,7 @@ passes root guidance to its agents.
 }
 ```
 
-   [Run record schema](../../schemas/run.schema.json):
+   [Run record schema](_shared/schemas/run.schema.json):
 ```json
 {
   "schema_version": 1,
@@ -78,13 +78,13 @@ passes root guidance to its agents.
    the planned scoped inputs on the unchanged baseline before any edit. Give a
    different fresh agent only the finding, the complete `reproduce/` directory,
    and project guidance for `validate-bug`. Do not send the reproducer's transcript.
-   Run the [record checker](../../scripts/records.py)
+   Run the [record checker](_shared/scripts/records.py)
    after each step. Stop at `not_reproduced`, `blocked`, `not_confirmed`, or
    `inconclusive`; prepare the corresponding report. If the scoped behavior is
    absent with trustworthy independent observations, make no patch. If evidence
    cannot be trusted, stop as INCONCLUSIVE.
 4. Before each repair, run `uv run --no-project <script> check --before-repair <run-dir>`
-   with the [record checker](../../scripts/records.py). If this check fails,
+   with the [record checker](_shared/scripts/records.py). If this check fails,
    stop and prepare an INCONCLUSIVE report with its errors. For attempt 1 through 3, update
    `run.attempts` to that number and dispatch `implement-patch` to a fresh agent.
    If `implement-patch` returns `patch_commit: null`, skip `prove-patch` and start the next
@@ -97,12 +97,12 @@ passes root guidance to its agents.
    decision record into `regression/receipts/`. Write `regression.json` with coverage
    and per-finding outcomes, then manifest the complete regression directory with
    `uv run --no-project <script> manifest <regression-step-dir>` using the linked
-   [record checker](../../scripts/records.py). Any
+   [record checker](_shared/scripts/records.py). Any
    reproduced regression or incomplete fix
    makes the patch Not ready; unresolved findings or incomplete coverage become concerns.
    Its coordinator loads root guidance at `patch_commit` for its own agents.
 
-   [Regression record schema](../../schemas/regression.schema.json):
+   [Regression record schema](_shared/schemas/regression.schema.json):
 ```json
 {
   "schema_version": 1,
@@ -113,7 +113,7 @@ passes root guidance to its agents.
 ```
 
 6. Write short `report-input.json` prose from receipts, set `include_poc` according to
-   disclosure context, and run the [renderer](../../scripts/render.py). It always writes
+   disclosure context, and run the [renderer](_shared/scripts/render.py). It always writes
    `report.html` for the auditor, including failed and inconclusive runs. It writes
    `maintainer-report.html` only when the validated records establish a verified patch
    ready for review. Read each generated report and give the auditor the local commit
@@ -127,7 +127,7 @@ passes root guidance to its agents.
    `finding.json` and `run.json` exist, report the blocker and failed command
    directly. At later workflow stops, use the same report path.
 
-   [Report input schema](../../schemas/report-input.schema.json):
+   [Report input schema](_shared/schemas/report-input.schema.json):
 ```json
 {
   "schema_version": 1,

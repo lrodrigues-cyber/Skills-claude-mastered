@@ -7,7 +7,7 @@ allowed-tools: Read, Edit, Write, Glob, Grep, Bash, Skill, Task, mcp__plugin_acc
 
 This skill remediates accessibility violations: baseline, edit, verify. It only fixes. To find what's wrong, use `accesslint:accessibility-scan` (one page, automated), `accesslint:accessibility-inspect` (one page, manual), or `accesslint:accessibility-audit` (whole site, WCAG-EM); to check for regressions, use `accesslint:accessibility-diff`. The engine runs here are internal to the loop — a baseline before and a check after — not a report.
 
-Shared conventions (grounding, never invent content): [`../shared/methodology.md`](../shared/methodology.md).
+Shared conventions (grounding, never invent content): [`_shared/shared/methodology.md`](_shared/shared/methodology.md).
 
 For large remediations, run via `Task` for context isolation; the steps are the same.
 

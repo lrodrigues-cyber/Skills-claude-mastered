@@ -1,6 +1,6 @@
 ---
 name: implement
-description: "Implement a piece of work based on a spec or set of tickets."
+description: "Implement a piece of work from a spec or a set of tickets. Use after /to-spec or /to-tickets, when the plan is agreed and it is time to write the code."
 disable-model-invocation: true
 ---
 

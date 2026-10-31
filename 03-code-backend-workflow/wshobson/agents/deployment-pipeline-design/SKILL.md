@@ -104,3 +104,8 @@ For platform-specific pipeline configurations, multi-region promotion workflows,
 - `github-actions-templates` - For GitHub Actions implementation patterns and reusable workflows
 - `gitlab-ci-patterns` - For GitLab CI/CD pipeline implementation
 - `secrets-management` - For secrets handling in CI/CD pipelines
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`ecc-deployment-patterns`](references/merged/ecc-deployment-patterns/README.md) — Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applicat _(from [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/deployment-patterns))_

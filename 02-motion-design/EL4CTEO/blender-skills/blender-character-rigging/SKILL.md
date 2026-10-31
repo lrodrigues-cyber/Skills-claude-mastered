@@ -53,3 +53,8 @@ Corrective shape keys driven by bone rotation fix elbows, knees and shoulders in
 - Meshes parented with "Keep Transform" but with unapplied scale get a double transform. Apply the scale before parenting.
 - Modifier order: Armature should come **after** shape-key-like deforms and **before** Subdivision/Corrective Smooth (Corrective Smooth after Armature reduces collapsing).
 - 5.0: `bone.select` is gone. Use `pose_bone.select` or `edit_bone.select`. `bone.hide` affects edit bones too.
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`blender-lab-mcp--blender-animation-rigging`](references/merged/blender-lab-mcp--blender-animation-rigging/README.md) — Blender 5.x animation and rigging — keyframes, FCurves, layered actions, drivers, constraints, armatures, IK/FK, shape keys, NLA editor, and bone collections vi _(from [ra100/blender-claude-plugin](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-animation-rigging))_

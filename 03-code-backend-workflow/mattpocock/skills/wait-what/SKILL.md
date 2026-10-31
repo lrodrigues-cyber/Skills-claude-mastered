@@ -1,6 +1,6 @@
 ---
 name: wait-what
-description: "Stop. That last message did not land: re-pitch it."
+description: "Re-pitch the last message because it did not land: simpler words, the point first, a concrete example. Use when the user says they are confused, lost, or 'wait, what?'."
 disable-model-invocation: true
 ---
 

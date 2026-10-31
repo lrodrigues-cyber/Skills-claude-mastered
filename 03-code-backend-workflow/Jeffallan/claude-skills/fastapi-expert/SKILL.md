@@ -188,3 +188,9 @@ FastAPI, Pydantic V2, async SQLAlchemy, Alembic migrations, JWT/OAuth2, pytest-a
 Maintained by [@jeffallan](https://github.com/jeffallan), Principal Consultant at [Synergetic Solutions](https://synergetic.solutions)
 
 [Documentation](https://jeffallan.github.io/claude-skills/skills/backend/fastapi-expert/)
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`ecc-fastapi-patterns`](references/merged/ecc-fastapi-patterns/README.md) — FastAPI best practices covering project structure, Pydantic v2 schemas, dependency injection, async handlers, authentication, authorization, transactional servi _(from [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/fastapi-patterns))_
+- [`fastapi-templates`](references/merged/fastapi-templates/README.md) — Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications _(from [wshobson/agents](https://github.com/wshobson/agents/tree/HEAD/plugins/api-scaffolding/skills/fastapi-templates))_

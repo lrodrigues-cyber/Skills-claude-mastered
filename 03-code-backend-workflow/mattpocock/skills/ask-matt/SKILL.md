@@ -1,6 +1,6 @@
 ---
 name: ask-matt
-description: Ask which skill or flow fits your situation. A router over the skills in this repo.
+description: "Router over Matt Pocock's engineering skills: tells you which skill or flow fits your situation. Use when unsure which of the planning, spec, TDD, triage or review skills to start with."
 disable-model-invocation: true
 ---
 

@@ -55,3 +55,8 @@ Procedural setups (noise/voronoi wear, curvature masks via `Geometry > Pointines
 - `mat.diffuse_color` only affects the viewport (Solid mode/workbench), not renders or export.
 - Images loaded headless need `image.colorspace_settings.name` set **before** baking or export.
 - Shared texture images used by several materials: change the color space once, because it's per image.
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`blender-lab-mcp--blender-shader-nodes`](references/merged/blender-lab-mcp--blender-shader-nodes/README.md) — Blender 5.x shader nodes — PBR materials, procedural textures, Principled BSDF, glass/metal/skin shaders, world/HDRI lighting, raycast shader node, and scriptin _(from [ra100/blender-claude-plugin](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-shader-nodes))_

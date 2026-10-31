@@ -1,6 +1,6 @@
 ---
-name: web-design
-description: Web 视觉设计 SKILL。输入 PRD / 参考 URL / 截图 / 关键词（任意组合），先产出一份标准化 DESIGN.md 设计规范，用户确认后据此生成 UI/UX、视觉、动效、响应式全部达标的 web 代码。专攻 web 端：Landing Page、Portfolio、产品页、博客、个人站、SaaS 介绍页等。当用户说"帮我做个网站""设计一个页面""参考 XX 做一个""把这个截图/PRD 做成网页""做一个 landing page""出一份 design 规范"时触发。不用于后端、数据库、纯逻辑 bug 修复。
+name: web-design-spec-first
+description: "Spec-first web visual design: from a PRD, reference URL, screenshot or keywords, first write a standard DESIGN.md, get it approved, then generate web code that meets the UI/UX, visual, motion and responsive bar. Use when the user says 'build me a website', 'design a page', 'make it like X', 'turn this screenshot/PRD into a page', 'make a landing page' or 'write a design spec'. Not for backend, databases or logic bugs."
 ---
 
 # Web Design

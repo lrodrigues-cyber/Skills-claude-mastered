@@ -1,9 +1,6 @@
 ---
-name: stitch::react-components
-description: >-
-  Converts Stitch designs into modular Vite and React components, or syncs/updates
-  existing React components to align with the latest Stitch designs, using system-level
-  networking and AST-based validation.
+name: react-components
+description: "Convert Google Stitch designs into modular Vite + React components, or sync existing components with the latest Stitch designs, with AST-based validation. Use when implementing Stitch screens in React or updating React code after a Stitch design change."
 allowed-tools:
   - "stitch*:*"
   - "Bash"

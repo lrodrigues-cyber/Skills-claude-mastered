@@ -250,3 +250,8 @@ Load these resources as needed during development:
   - XML format specifications
   - Example questions and answers
   - Running an evaluation with the provided scripts
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`mcp-developer`](references/merged/mcp-developer/README.md) — Use when building, debugging, or extending MCP servers or clients that connect AI systems with external tools and data sources. Invoke to implement tool handler _(from [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills/tree/HEAD/skills/mcp-developer))_

@@ -1,6 +1,6 @@
 ---
 name: shadcn-ui
-description: Expert guidance for integrating and building applications with shadcn/ui components, including component discovery, installation, customization, and best practices.
+description: "Build with shadcn/ui: find, install, compose and customize components following shadcn conventions. Use when a project uses or should use shadcn/ui, when adding a component (dialog, form, table, combobox…), or when theming shadcn with Tailwind."
 allowed-tools:
   - "shadcn*:*"
   - "mcp_shadcn*"

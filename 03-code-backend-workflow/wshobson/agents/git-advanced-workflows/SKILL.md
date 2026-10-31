@@ -201,3 +201,8 @@ git reset --hard HEAD^
 git reflog
 git branch recovered-branch abc123
 ```
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`ecc-git-workflow`](references/merged/ecc-git-workflow/README.md) — Git workflow patterns including branching strategies, commit conventions, keeping history clean and readable, tidying local commits before merging, merge vs reb _(from [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/git-workflow))_

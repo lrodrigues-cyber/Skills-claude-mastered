@@ -9,7 +9,7 @@ Default branch: !`git symbolic-ref refs/remotes/origin/HEAD --short 2>/dev/null 
 
 Report only what changed. Locate; don't fix.
 
-Shared grounding and honesty conventions: [`../shared/methodology.md`](../shared/methodology.md).
+Shared grounding and honesty conventions: [`_shared/shared/methodology.md`](_shared/shared/methodology.md).
 
 Parse `$ARGUMENTS`: if `--branch <name>` is present, remove it and use branch mode (no value means the default branch above). The rest is the target: a URL, a config target name, or empty for the default target from `accesslint.config.json`. If it's empty and there's no config, ask for a URL.
 

@@ -498,3 +498,8 @@ if (skinnedMesh) skinnedMesh.material = material;
 - `threejs-fundamentals` — render loop, Timer, renderer and scene setup
 - `threejs-loaders` — loading glTF models and their animation clips
 - `threejs-shaders` — GPU vertex displacement with TSL or ShaderMaterial
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`threejs-animation`](references/merged/threejs-animation/README.md) — This skill should be used when the user asks to "build a 3D hero section or WebGL background", "animate a Three.js scene", "play or crossfade GLTF animation cli _(from [iart-ai/webgl-animation-skills](https://github.com/iart-ai/webgl-animation-skills/tree/HEAD/skills/threejs-animation))_

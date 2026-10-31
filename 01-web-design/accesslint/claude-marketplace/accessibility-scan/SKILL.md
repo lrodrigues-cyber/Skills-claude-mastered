@@ -7,7 +7,7 @@ allowed-tools: Bash, Read, Glob, Grep, Skill, Task
 
 Audit a live page and report each violation and where it is. Locate; don't fix.
 
-Shared grounding and honesty conventions: [`../shared/methodology.md`](../shared/methodology.md).
+Shared grounding and honesty conventions: [`_shared/shared/methodology.md`](_shared/shared/methodology.md).
 
 `$ARGUMENTS` is a URL, a config target name (`dev`, `storybook`, …), or empty to audit the default target from `accesslint.config.json`. If it's empty and no config exists, ask for a URL or suggest `npx @accesslint/cli init`.
 

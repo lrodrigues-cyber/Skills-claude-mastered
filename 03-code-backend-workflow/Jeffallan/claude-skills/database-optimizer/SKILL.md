@@ -150,3 +150,8 @@ When optimizing database performance, provide:
 Maintained by [@jeffallan](https://github.com/jeffallan), Principal Consultant at [Synergetic Solutions](https://synergetic.solutions)
 
 [Documentation](https://jeffallan.github.io/claude-skills/skills/infrastructure/database-optimizer/)
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`sql-optimization-patterns`](references/merged/sql-optimization-patterns/README.md) — Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debug _(from [wshobson/agents](https://github.com/wshobson/agents/tree/HEAD/plugins/developer-essentials/skills/sql-optimization-patterns))_

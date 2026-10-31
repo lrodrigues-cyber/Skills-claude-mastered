@@ -1,6 +1,6 @@
 ---
 name: design-md
-description: Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files
+description: "Analyze a Google Stitch project and synthesize its semantic design system into a DESIGN.md file. Use when the user works with Stitch and wants a reusable design spec, or needs Stitch screens to stay consistent."
 allowed-tools:
   - "stitch*:*"
   - "Read"

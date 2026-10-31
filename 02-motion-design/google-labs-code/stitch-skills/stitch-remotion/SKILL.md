@@ -1,6 +1,6 @@
 ---
-name: remotion
-description: Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays
+name: stitch-remotion
+description: "Generate walkthrough videos of Google Stitch projects with Remotion: smooth transitions, zooms and text overlays. Use when the user wants a product demo or showcase video made from Stitch screens."
 allowed-tools:
   - "stitch*:*"
   - "remotion*:*"

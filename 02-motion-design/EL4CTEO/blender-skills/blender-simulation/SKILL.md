@@ -65,3 +65,8 @@ Domain object (`FLUID` modifier `fluid_type="DOMAIN"`, `domain_type="LIQUID"|"GA
 - Exploding cloth at frame 1: starting interpenetration or a zero-area face. Run `blender-asset-qa`, offset the start.
 - Rigid body world cache ranges are separate from the scene range (the script syncs them).
 - Changing anything (frame range, settings) invalidates caches. Re-bake.
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`blender-lab-mcp--blender-physics-simulation`](references/merged/blender-lab-mcp--blender-physics-simulation/README.md) — Blender 5.x physics simulations — rigid body, cloth, fluid/smoke/fire (Mantaflow), soft body, particles, force fields, collisions, and simulation baking/caching _(from [ra100/blender-claude-plugin](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-physics-simulation))_

@@ -1,5 +1,5 @@
 ---
-name: search-first
+name: ecc-search-first
 description: "Research-before-coding workflow: search npm/PyPI, MCP servers, skills, and GitHub for existing tools before writing custom code, then adopt, extend, or build. Launches the researcher agent for non-trivial needs. Use when starting a feature, adding a dependency or integration, or about to write a utility that may already exist."
 metadata:
   origin: ECC

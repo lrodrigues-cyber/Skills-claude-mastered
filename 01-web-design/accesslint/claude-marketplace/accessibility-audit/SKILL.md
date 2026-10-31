@@ -12,7 +12,7 @@ This is a full WCAG 2.2 accessibility audit using WCAG-EM. It defines scope, sam
 
 Assess; don't fix (`accesslint:accessibility-fix`) or diff (`accesslint:accessibility-diff`). One page with no sampling is a `accessibility-scan`, not an audit. This skill delegates each sampled page to its own subagent (step 4), so it stays light on large samples.
 
-The full doctrine — WCAG-EM in detail, the severity rubric with examples, the no-proxy boundary, grounding — is in [`../shared/methodology.md`](../shared/methodology.md). The rules needed to run this skill are below.
+The full doctrine — WCAG-EM in detail, the severity rubric with examples, the no-proxy boundary, grounding — is in [`_shared/shared/methodology.md`](_shared/shared/methodology.md). The rules needed to run this skill are below.
 
 ## Grading
 
@@ -83,3 +83,10 @@ WCAG 2.2 Level AA · WCAG-EM · <N> pages/states sampled
 - Two browsers can drift selectors; prefer a shared browser for ●-precision, otherwise note that dedup is best-effort.
 - State what wasn't covered (pages outside the sample, ○ criteria). Omitting it reads as "all clear".
 - Use `list_rules` and `explain_rule` for engine-rule metadata.
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`accessibility-audit`](references/merged/accessibility-audit/README.md) — Audit an existing interface against WCAG, producing findings with severity ratings and remediation steps. Use when you have a design or build to assess now. Not _(from [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills/tree/HEAD/design-systems/skills/accessibility-audit))_
+- [`accessibility-compliance`](references/merged/accessibility-compliance/README.md) — Implement WCAG 2.2 compliant interfaces with mobile accessibility, inclusive design patterns, and assistive technology support. Use when auditing accessibility, _(from [wshobson/agents](https://github.com/wshobson/agents/tree/HEAD/plugins/ui-design/skills/accessibility-compliance))_
+- [`wcag-audit-patterns`](references/merged/wcag-audit-patterns/README.md) — Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixin _(from [wshobson/agents](https://github.com/wshobson/agents/tree/HEAD/plugins/accessibility-compliance/skills/wcag-audit-patterns))_

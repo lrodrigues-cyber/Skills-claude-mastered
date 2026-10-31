@@ -15,8 +15,8 @@ General audits, patching, or checking only whether an original bug was fixed.
 
 ## Coordinate
 
-1. Read the [standard](../../docs/regression-definition.md) and
-   [file contract](../../references/evidence.md). Obtain changes, execution limits
+1. Read the [standard](_shared/docs/regression-definition.md) and
+   [file contract](_shared/references/evidence.md). Obtain changes, execution limits
    and a campaign directory outside the plugin. Save the original change list in
    `scope.json` and run registry `init` before dispatch. Create `campaign.json` and
    `progress.md`; only you update the index. Scope changes require a new campaign.
@@ -26,7 +26,7 @@ General audits, patching, or checking only whether an original bug was fixed.
    copies under `guidance/<change-id>/<target-SHA>/`; note the SHA and absent files in
    `progress.md`. Missing files are allowed. If preparation freezes another S1, stop that
    attempt, refresh guidance at S1 and retry before acceptance; keep earlier copies.
-2. Use [registry.py](../../scripts/registry.py) to reserve each stage's assignment,
+2. Use [registry.py](_shared/scripts/registry.py) to reserve each stage's assignment,
    candidate prefix and attempt directory. Pass the returned assignment, skill, complete
    inputs and permissions to a fresh agent without inherited conversation. Pass each saved
    copy as a registry `--input`. In every fresh-agent prompt, including preparation, retries
@@ -40,12 +40,12 @@ General audits, patching, or checking only whether an original bug was fixed.
 
    | Need | Skill |
    | --- | --- |
-   | Freeze sources/context | [prepare-regression](../prepare-regression/SKILL.md) |
-   | Discover candidates | [hunt-regressions](../hunt-regressions/SKILL.md) |
-   | Demonstrate behavior | [reproduce-regression](../reproduce-regression/SKILL.md) |
-   | Independently rerun | [replay-regression](../replay-regression/SKILL.md) |
-   | Decide findings | [adjudicate-regression](../adjudicate-regression/SKILL.md) |
-   | Report results | [report-regressions](../report-regressions/SKILL.md) |
+   | Freeze sources/context | [prepare-regression](#) <!-- sibling skill `prepare-regression` not bundled --> |
+   | Discover candidates | [hunt-regressions](#) <!-- sibling skill `hunt-regressions` not bundled --> |
+   | Demonstrate behavior | [reproduce-regression](#) <!-- sibling skill `reproduce-regression` not bundled --> |
+   | Independently rerun | [replay-regression](#) <!-- sibling skill `replay-regression` not bundled --> |
+   | Decide findings | [adjudicate-regression](#) <!-- sibling skill `adjudicate-regression` not bundled --> |
+   | Report results | [report-regressions](#) <!-- sibling skill `report-regressions` not bundled --> |
 
 4. Parallelize independent work within execution limits. Confirmation requires
    distinct reproduction, replay and adjudication agents; otherwise record

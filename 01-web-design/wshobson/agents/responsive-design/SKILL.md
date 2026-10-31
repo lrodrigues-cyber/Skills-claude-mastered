@@ -42,3 +42,8 @@ Detailed pattern documentation lives in `references/details.md`. Read that file 
 - **Touch Targets**: Buttons too small to tap accurately
 - **Aspect Ratio**: Images squishing or stretching
 - **Z-Index Stacking**: Overlays breaking on different screens
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`responsive-design`](references/merged/responsive-design/README.md) — Design layouts and interactions that adapt across screen sizes and input methods. Use when one design must serve many viewports. For the underlying column grid  _(from [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills/tree/HEAD/ui-design/skills/responsive-design))_

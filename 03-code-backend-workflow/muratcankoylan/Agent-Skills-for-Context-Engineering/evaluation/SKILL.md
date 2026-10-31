@@ -282,3 +282,8 @@ External resources:
 **Last Updated**: 2026-05-15
 **Author**: Agent Skills for Context Engineering Contributors
 **Version**: 1.2.0
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`ecc-eval-harness`](references/merged/ecc-eval-harness/README.md) — Eval-driven development (EDD) framework for AI coding sessions — define capability and regression evals before coding, grade with code-based, model-based, rule, _(from [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/eval-harness))_

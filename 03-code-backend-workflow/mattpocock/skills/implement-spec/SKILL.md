@@ -1,6 +1,6 @@
 ---
 name: implement-spec
-description: "Implement the result of /to-spec and /to-tickets in code."
+description: "Implement the output of /to-spec and /to-tickets in code, ticket by ticket, respecting blocking edges. Use when a spec and its tickets exist and the user says to build it."
 disable-model-invocation: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: motion-graphic
+name: motion-graphic-canvas
 description: Create or revise single-file HTML motion graphics from briefs and reference material, with beat-synced canvas scenes, synthesized audio, a mobile player, and visual checks. Use for animated intros, kinetic typography, sizzle reels, and product, portfolio, or talk openers. Can export the generated HTML to MP4. Not for editing existing video files, After Effects, simple CSS effects, or slide decks.
 ---
 

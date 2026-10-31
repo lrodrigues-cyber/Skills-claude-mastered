@@ -32,7 +32,7 @@ conversation).
 
 ### 2. Resolve the loop script
 
-Resolve [`improve.js`](../../workflows/improve.js) from this SKILL.md's installed location
+Resolve [`improve.js`](_shared/workflows/improve.js) from this SKILL.md's installed location
 to an absolute path and confirm the file exists. Its plugin directory is `pluginRoot`.
 Use this exact plugin copy; if the file is missing, stop.
 

@@ -2,7 +2,7 @@
 
 Vidéo en code (Remotion, HTML/canvas, Manim), principes d'animation, formats pub/TikTok/YouTube, Blender pro (modélisation → rigging → lookdev → rendu) piloté par Claude.
 
-**100 skills** issus de 22 sources. Chaque dossier garde sa licence d'origine.
+**90 skills** issus de 19 sources. Chaque dossier garde sa licence d'origine.
 
 ## Installation
 
@@ -51,7 +51,6 @@ cp -r 02-motion-design/<auteur>/<repo>/<skill> ~/.claude/skills/   # un skill
 | [`animated-chart`](charlie947/motion-graphics-skills/animated-chart) · [src](https://github.com/charlie947/motion-graphics-skills/tree/HEAD/skills/animated-chart) | MIT | Make a looping animated chart for LinkedIn or a newsletter in code with Claude Code. Bars that become a line, a number that counts up, a before and after. Every value stays exactly… |
 | [`apple-launch-film`](charlie947/motion-graphics-skills/apple-launch-film) · [src](https://github.com/charlie947/motion-graphics-skills/tree/HEAD/skills/apple-launch-film) | MIT | Rebuild an Apple-style Mac launch film entirely in code with Claude Code. A thin menu bar, the black notch growing into widgets one scene at a time, full-screen gradient wallpapers… |
 | [`brand-intake`](charlie947/motion-graphics-skills/brand-intake) · [src](https://github.com/charlie947/motion-graphics-skills/tree/HEAD/skills/brand-intake) | MIT | The setup step every other skill in this pack reads. A short interview plus 3 to 5 reference frames becomes two files in your project, brand.md (who you are, what you sell, your as… |
-| [`launch-video`](charlie947/motion-graphics-skills/launch-video) · [src](https://github.com/charlie947/motion-graphics-skills/tree/HEAD/skills/launch-video) | MIT | Make a 30-45 second product launch video in code with Claude Code, the kind SaaS companies post on launch day. One sentence split across scenes, real product screens with slow came… |
 | [`loop-cover`](charlie947/motion-graphics-skills/loop-cover) · [src](https://github.com/charlie947/motion-graphics-skills/tree/HEAD/skills/loop-cover) | MIT | Turn a newsletter or blog cover into a seamless looping GIF at 896 x 640, 180 frames at 20fps. Only the one element you name moves, the loop is rotated so frame 1 shows the finishe… |
 | [`milestone-reveal`](charlie947/motion-graphics-skills/milestone-reveal) · [src](https://github.com/charlie947/motion-graphics-skills/tree/HEAD/skills/milestone-reveal) | MIT | Make a 12-second looping milestone clip in code with Claude Code. Thousands of tiny points drift like a night sky, pull together into your real number (followers, subscribers, reve… |
 | [`model-showdown`](charlie947/motion-graphics-skills/model-showdown) · [src](https://github.com/charlie947/motion-graphics-skills/tree/HEAD/skills/model-showdown) | MIT | Give the same motion brief to three AI models, keep each first try, render all three the same way and stack them into one comparison video with model names and logos. Makes a 16:9 … |
@@ -61,8 +60,23 @@ cp -r 02-motion-design/<auteur>/<repo>/<skill> ~/.claude/skills/   # un skill
 | [`newsletter-promo`](charlie947/motion-graphics-skills/newsletter-promo) · [src](https://github.com/charlie947/motion-graphics-skills/tree/HEAD/skills/newsletter-promo) | MIT | Turn a newsletter edition into a 12-20 second promo clip for LinkedIn, Instagram or X that drives people to read and subscribe. Hook question, three proof frames from the edition, … |
 | [`reel-export`](charlie947/motion-graphics-skills/reel-export) · [src](https://github.com/charlie947/motion-graphics-skills/tree/HEAD/skills/reel-export) | MIT | Turn any horizontal or square motion video into a 1080 x 1920 Instagram Reel or TikTok that uploads cleanly. Headline and logos inside the safe zone, H.264, yuv420p, limited colour… |
 | [`reference-to-motion`](charlie947/motion-graphics-skills/reference-to-motion) · [src](https://github.com/charlie947/motion-graphics-skills/tree/HEAD/skills/reference-to-motion) | MIT | Turn references you admire into a scene-by-scene Claude Motion prompt for your own topic and brand. Takes a video for the moves (screenshots, frames or a contact sheet of a reel or… |
+| [`saas-launch-video`](charlie947/motion-graphics-skills/saas-launch-video) · [src](https://github.com/charlie947/motion-graphics-skills/tree/HEAD/skills/launch-video) | MIT | Make a 30-45 second product launch video in code with Claude Code, the kind SaaS companies post on launch day. One sentence split across scenes, real product screens with slow came… |
 | [`title-sequence-3d`](charlie947/motion-graphics-skills/title-sequence-3d) · [src](https://github.com/charlie947/motion-graphics-skills/tree/HEAD/skills/title-sequence-3d) | MIT | Make a cinematic 3D title sequence (8-15 seconds) in code with Claude Code and Three.js. A camera moves through a lit scene, such as a rainy street at night with brand names as neo… |
 | [`vox-explainer`](charlie947/motion-graphics-skills/vox-explainer) · [src](https://github.com/charlie947/motion-graphics-skills/tree/HEAD/skills/vox-explainer) | MIT | Make a short Vox-style documentary explainer (30-60 seconds) entirely in code with Claude Code. Torn paper, halftone texture, bold condensed type, motion on twos. Use when someone … |
+
+## [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) · 9
+
+| Nom | Licence | Description |
+|---|---|---|
+| [`ecc-blender-motion-state-inspection`](affaan-m/everything-claude-code/ecc-blender-motion-state-inspection) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/blender-motion-state-inspection) | MIT | Use this skill when inspecting Blender characters, rigs, poses, animation retargeting, ground contact, facing direction, or model-vs-motion alignment where screenshots alone are no… |
+| [`ecc-fal-ai-media`](affaan-m/everything-claude-code/ecc-fal-ai-media) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/fal-ai-media) | MIT | Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/image-to-video (Seedance, Kling, Veo 3), text-to-speech (CSM-1B), and vi… |
+| [`ecc-tasteforge-video`](affaan-m/everything-claude-code/ecc-tasteforge-video) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/tasteforge-video) | MIT | Use for file-driven multimodal image, video, and 3D-asset discovery; taste interviews; distill or apply workflows; style-pack validation; editable EDL/FCPXML export; provenance aud… |
+| [`ecc-ui-demo`](affaan-m/everything-claude-code/ecc-ui-demo) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/ui-demo) | MIT | Record polished UI demo videos using Playwright. Use when the user asks to create a demo, walkthrough, screen recording, or tutorial video of a web application. Produces WebM video… |
+| [`ecc-video-editing`](affaan-m/everything-claude-code/ecc-video-editing) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/video-editing) | MIT | AI-assisted video editing workflows for cutting, structuring, and augmenting real footage. Covers the full pipeline from raw capture through FFmpeg, Remotion, ElevenLabs, fal.ai, a… |
+| [`ecc-video-taste`](affaan-m/everything-claude-code/ecc-video-taste) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/taste) | MIT | Creative-direction layer for music videos and short-form edits in the angelcore / cloud-trance / hyperpop family — a named-genre aesthetic vocabulary, mood + color + light system, … |
+| [`ecc-video-taste-application`](affaan-m/everything-claude-code/ecc-video-taste-application) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/taste-application) | MIT | Generate new video against a distilled style pack and cut it into a finished piece - plan takes from the reference's cut rhythm, generate on fal, grade with the pack's measured LUT… |
+| [`ecc-video-taste-distillation`](affaan-m/everything-claude-code/ecc-video-taste-distillation) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/taste-distillation) | MIT | Measure a set of reference videos into a reusable style pack - colour grade as a 3D LUT, cut rhythm as a shot-length distribution, hero stills, screen-blend overlay plates, and a t… |
+| [`remotion-best-practices`](affaan-m/everything-claude-code/remotion-best-practices) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/remotion-video-creation) | MIT | Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more. Use when building video in … |
 
 ## [iart-ai/motion-design-skills](https://github.com/iart-ai/motion-design-skills) · 9
 
@@ -77,33 +91,6 @@ cp -r 02-motion-design/<auteur>/<repo>/<skill> ~/.claude/skills/   # un skill
 | [`motion-background`](iart-ai/motion-design-skills/motion-background) · [src](https://github.com/iart-ai/motion-design-skills/tree/HEAD/skills/motion-background) | MIT | This skill should be used when the user asks to "add an animated background", "build a mesh/gradient background", "make an aurora/shader background", "add constellation/particle ba… |
 | [`remotion-video`](iart-ai/motion-design-skills/remotion-video) · [src](https://github.com/iart-ai/motion-design-skills/tree/HEAD/skills/remotion-video) | MIT | This skill should be used when the user asks to "make a video with Remotion", "create a programmatic/data-driven video in React", "render an MP4/GIF from code", "animate with useCu… |
 | [`shot-composition`](iart-ai/motion-design-skills/shot-composition) · [src](https://github.com/iart-ai/motion-design-skills/tree/HEAD/skills/shot-composition) | MIT | This skill should be used when the user asks to "compose a frame", "set up a grid", "plan shot composition", "place the focal point", "decide where elements enter and exit", "add a… |
-
-## [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) · 9
-
-| Nom | Licence | Description |
-|---|---|---|
-| [`ecc-blender-motion-state-inspection`](affaan-m/everything-claude-code/ecc-blender-motion-state-inspection) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/blender-motion-state-inspection) | MIT | Use this skill when inspecting Blender characters, rigs, poses, animation retargeting, ground contact, facing direction, or model-vs-motion alignment where screenshots alone are no… |
-| [`ecc-fal-ai-media`](affaan-m/everything-claude-code/ecc-fal-ai-media) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/fal-ai-media) | MIT | Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/image-to-video (Seedance, Kling, Veo 3), text-to-speech (CSM-1B), and vi… |
-| [`ecc-manim-video`](affaan-m/everything-claude-code/ecc-manim-video) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/manim-video) | MIT | Build reusable Manim explainers for technical concepts, graphs, system diagrams, and product walkthroughs, then hand off to the wider ECC video stack if needed. Use when the user w… |
-| [`ecc-motion-advanced`](affaan-m/everything-claude-code/ecc-motion-advanced) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/motion-advanced) | MIT | Advanced motion patterns for React / Next.js — drag & drop, gestures, text animations, SVG path drawing, custom hooks, imperative sequences (useAnimate), loaders, and the full API … |
-| [`ecc-motion-foundations`](affaan-m/everything-claude-code/ecc-motion-foundations) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/motion-foundations) | MIT | Motion tokens, spring presets, performance rules, device adaptation, accessibility enforcement, and SSR safety for React / Next.js using motion/react. Foundation layer — all other … |
-| [`ecc-motion-patterns`](affaan-m/everything-claude-code/ecc-motion-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/motion-patterns) | MIT | Production-ready animation patterns for React / Next.js — button, modal, toast, stagger, page transitions, exit animations, scroll, and layout — built on motion-foundations tokens … |
-| [`ecc-remotion-video-creation`](affaan-m/everything-claude-code/ecc-remotion-video-creation) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/remotion-video-creation) | MIT | Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more. Use when building video in … |
-| [`ecc-tasteforge-video`](affaan-m/everything-claude-code/ecc-tasteforge-video) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/tasteforge-video) | MIT | Use for file-driven multimodal image, video, and 3D-asset discovery; taste interviews; distill or apply workflows; style-pack validation; editable EDL/FCPXML export; provenance aud… |
-| [`ecc-video-editing`](affaan-m/everything-claude-code/ecc-video-editing) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/video-editing) | MIT | AI-assisted video editing workflows for cutting, structuring, and augmenting real footage. Covers the full pipeline from raw capture through FFmpeg, Remotion, ElevenLabs, fal.ai, a… |
-
-## [ra100/blender-claude-plugin](https://github.com/ra100/blender-claude-plugin) · 8
-
-| Nom | Licence | Description |
-|---|---|---|
-| [`blender-lab-mcp--blender-animation-rigging`](ra100/blender-claude-plugin/blender-lab-mcp--blender-animation-rigging) · [src](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-animation-rigging) | MIT | Blender 5.x animation and rigging — keyframes, FCurves, layered actions, drivers, constraints, armatures, IK/FK, shape keys, NLA editor, and bone collections via Python (bpy). Incl… |
-| [`blender-lab-mcp--blender-compositing-nodes`](ra100/blender-claude-plugin/blender-lab-mcp--blender-compositing-nodes) · [src](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-compositing-nodes) | MIT | Blender 5.x compositor nodes — post-processing, color grading, denoising, keying, glare, depth of field, render pass separation, multi-layer EXR output, and scripting compositing p… |
-| [`blender-lab-mcp--blender-geometry-nodes`](ra100/blender-claude-plugin/blender-lab-mcp--blender-geometry-nodes) · [src](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-geometry-nodes) | MIT | Blender 5.x geometry nodes — procedural modeling, scattering, mesh/curve/volume ops, simulation zones, repeat zones, Bone Info, Font socket, UV nodes, volume grid nodes, and script… |
-| [`blender-lab-mcp--blender-modeling-modifiers`](ra100/blender-claude-plugin/blender-lab-mcp--blender-modeling-modifiers) · [src](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-modeling-modifiers) | MIT | Blender 5.x modifiers, bmesh API, mesh editing operators, sculpting setup — SubSurf, Boolean, Array, Mirror, Bevel, bmesh procedural mesh creation, and modeling pipelines via Pytho… |
-| [`blender-lab-mcp--blender-physics-simulation`](ra100/blender-claude-plugin/blender-lab-mcp--blender-physics-simulation) · [src](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-physics-simulation) | MIT | Blender 5.x physics simulations — rigid body, cloth, fluid/smoke/fire (Mantaflow), soft body, particles, force fields, collisions, and simulation baking/caching via Python (bpy). |
-| [`blender-lab-mcp--blender-python-scripting`](ra100/blender-claude-plugin/blender-lab-mcp--blender-python-scripting) · [src](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-python-scripting) | MIT | Blender 5.x Python scripting (bpy) — custom operators, UI panels, add-on development, context management, handlers, timers, property system, batch processing, and data model access… |
-| [`blender-lab-mcp--blender-scene-rendering`](ra100/blender-claude-plugin/blender-lab-mcp--blender-scene-rendering) · [src](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-scene-rendering) | MIT | Blender 5.x scene setup, render engines (Cycles/EEVEE), output formats, import/export (FBX/glTF/OBJ/USD/Alembic), linking/appending, color management (AgX/Filmic), view layers, vie… |
-| [`blender-lab-mcp--blender-shader-nodes`](ra100/blender-claude-plugin/blender-lab-mcp--blender-shader-nodes) · [src](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-shader-nodes) | MIT | Blender 5.x shader nodes — PBR materials, procedural textures, Principled BSDF, glass/metal/skin shaders, world/HDRI lighting, raycast shader node, and scripting material node tree… |
 
 ## [iart-ai/explainer-video-skills](https://github.com/iart-ai/explainer-video-skills) · 5
 
@@ -147,19 +134,19 @@ cp -r 02-motion-design/<auteur>/<repo>/<skill> ~/.claude/skills/   # un skill
 | [`audiogram`](iart-ai/youtube-video-skills/audiogram) · [src](https://github.com/iart-ai/youtube-video-skills/tree/HEAD/skills/audiogram) | MIT | This skill should be used when the user asks to "make an audiogram", "turn a podcast into a video", "create a waveform video", "make a podcast clip video", "convert audio to video"… |
 | [`youtube-intro-outro`](iart-ai/youtube-video-skills/youtube-intro-outro) · [src](https://github.com/iart-ai/youtube-video-skills/tree/HEAD/skills/youtube-intro-outro) | MIT | This skill should be used when the user asks to "make a YouTube intro", "create a channel intro", "build a logo sting/bumper", "design an outro / end screen / end card", "add subsc… |
 
+## [ra100/blender-claude-plugin](https://github.com/ra100/blender-claude-plugin) · 2
+
+| Nom | Licence | Description |
+|---|---|---|
+| [`blender-compositing-nodes`](ra100/blender-claude-plugin/blender-compositing-nodes) · [src](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-compositing-nodes) | MIT | Blender 5.x compositor via Python (bpy): post-processing, color grading, denoising, keying, glare, depth of field, render passes, multi-layer EXR output and scripted compositing pi… |
+| [`blender-python-scripting`](ra100/blender-claude-plugin/blender-python-scripting) · [src](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-python-scripting) | MIT | Blender 5.x Python (bpy, Python 3.13): custom operators, UI panels, add-ons, context management, handlers, timers, properties, batch processing and data access. Use when writing or… |
+
 ## [anthropics/skills](https://github.com/anthropics/skills) · 2
 
 | Nom | Licence | Description |
 |---|---|---|
 | [`algorithmic-art`](anthropics/skills/algorithmic-art) · [src](https://github.com/anthropics/skills/tree/HEAD/skills/algorithmic-art) | Apache-2.0 | Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic … |
 | [`slack-gif-creator`](anthropics/skills/slack-gif-creator) · [src](https://github.com/anthropics/skills/tree/HEAD/skills/slack-gif-creator) | Apache-2.0 | Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Sla… |
-
-## [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills) · 2
-
-| Nom | Licence | Description |
-|---|---|---|
-| [`ui-animation-principles`](Owl-Listener/designer-skills/ui-animation-principles) · [src](https://github.com/Owl-Listener/designer-skills/tree/HEAD/interaction-design/skills/animation-principles) | MIT | Apply animation principles — easing, staging, follow-through — to one specific UI motion. Use when tuning how an animation feels. For product-wide duration and easing tokens use `m… |
-| [`ui-motion-system`](Owl-Listener/designer-skills/ui-motion-system) · [src](https://github.com/Owl-Listener/designer-skills/tree/HEAD/design-systems/skills/motion-system) | MIT | Define motion tokens — durations, easing vocabulary, and reduced-motion handling — for consistency product-wide. Use when standardising motion across a system. For crafting one spe… |
 
 ## [iart-ai/kinetic-typography-skills](https://github.com/iart-ai/kinetic-typography-skills) · 1
 
@@ -179,12 +166,6 @@ cp -r 02-motion-design/<auteur>/<repo>/<skill> ~/.claude/skills/   # un skill
 |---|---|---|
 | [`talking-head-b-roll`](iart-ai/b-roll-skills/talking-head-b-roll) · [src](https://github.com/iart-ai/b-roll-skills/tree/HEAD/skills/talking-head-b-roll) | MIT | Add b-roll motion graphics to a talking-head video. Transcribes the recording with word timings, decides line by line when the speaker is shown, when a graphic is laid over them an… |
 
-## [iart-ai/lower-thirds-skills](https://github.com/iart-ai/lower-thirds-skills) · 1
-
-| Nom | Licence | Description |
-|---|---|---|
-| [`lower-thirds`](iart-ai/lower-thirds-skills/lower-thirds) · [src](https://github.com/iart-ai/lower-thirds-skills/tree/HEAD/skills/lower-thirds) | MIT | Make animated lower thirds and other broadcast overlays (name straps, corner bugs, subscribe reminders, scripture or song titles) as transparent video files, drawn frame by frame i… |
-
 ## [howseen-ai/claude-motion-design](https://github.com/howseen-ai/claude-motion-design) · 1
 
 | Nom | Licence | Description |
@@ -201,19 +182,13 @@ cp -r 02-motion-design/<auteur>/<repo>/<skill> ~/.claude/skills/   # un skill
 
 | Nom | Licence | Description |
 |---|---|---|
-| [`remotion-motion-graphics`](fernandokaraka/remotion-motion-graphics-skill/remotion-motion-graphics) · [src](https://github.com/fernandokaraka/remotion-motion-graphics-skill/tree/HEAD/skills/remotion-motion-graphics) | MIT | Build animated motion graphics as real video with Remotion (React-based programmatic video) — title cards, lower thirds, logo stings, badges, stat reveals, countdowns, end screens,… |
-
-## [haidrrrry/claude-remotion-skill](https://github.com/haidrrrry/claude-remotion-skill) · 1
-
-| Nom | Licence | Description |
-|---|---|---|
-| [`claude-remotion`](haidrrrry/claude-remotion-skill/claude-remotion) · [src](https://github.com/haidrrrry/claude-remotion-skill/tree/HEAD/remotion-motion-graphics) | MIT | Create and edit professional motion graphics videos with Remotion (React-based video). Use this skill EVERY time the user wants to create a video, edit a video, animate something, … |
+| [`remotion-motion-graphics`](fernandokaraka/remotion-motion-graphics-skill/remotion-motion-graphics) · [src](https://github.com/fernandokaraka/remotion-motion-graphics-skill/tree/HEAD/skills/remotion-motion-graphics) | MIT | Build motion graphics as real video with Remotion: title cards, lower thirds, logo stings, badges, stat reveals, countdowns, end screens, captions, animated charts, social reels; e… |
 
 ## [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) · 1
 
 | Nom | Licence | Description |
 |---|---|---|
-| [`stitch-remotion`](google-labs-code/stitch-skills/stitch-remotion) · [src](https://github.com/google-labs-code/stitch-skills/tree/HEAD/plugins/stitch-build/skills/remotion) | Apache-2.0 | Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays |
+| [`stitch-remotion`](google-labs-code/stitch-skills/stitch-remotion) · [src](https://github.com/google-labs-code/stitch-skills/tree/HEAD/plugins/stitch-build/skills/remotion) | Apache-2.0 | Generate walkthrough videos of Google Stitch projects with Remotion: smooth transitions, zooms and text overlays. Use when the user wants a product demo or showcase video made from… |
 
 ## [AndreiFlau/blender-mcp-skill](https://github.com/AndreiFlau/blender-mcp-skill) · 1
 

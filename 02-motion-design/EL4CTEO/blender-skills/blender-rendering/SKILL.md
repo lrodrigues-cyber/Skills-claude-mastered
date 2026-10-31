@@ -68,3 +68,8 @@ There's no Composite node anymore: the group output is the final image. Many nod
 - `bpy.ops.render.render(write_still=True)` writes `render.filepath`. Without `write_still`, the result only lives in `Render Result`.
 - Noise in glass/caustics: enable caustics only if needed (`caustics_refractive`), raise transmission bounces, or fake it with Thin Wall (5.2) for windows.
 - Fireflies: clamp indirect, a filter glossy / blur glossy (`blur_glossy` 0.5–1), and bigger light sources.
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`blender-lab-mcp--blender-scene-rendering`](references/merged/blender-lab-mcp--blender-scene-rendering/README.md) — Blender 5.x scene setup, render engines (Cycles/EEVEE), output formats, import/export (FBX/glTF/OBJ/USD/Alembic), linking/appending, color management (AgX/Filmi _(from [ra100/blender-claude-plugin](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-scene-rendering))_

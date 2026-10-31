@@ -209,3 +209,8 @@ NestJS, TypeScript, TypeORM, Prisma, Passport, JWT, class-validator, class-trans
 Maintained by [@jeffallan](https://github.com/jeffallan), Principal Consultant at [Synergetic Solutions](https://synergetic.solutions)
 
 [Documentation](https://jeffallan.github.io/claude-skills/skills/backend/nestjs-expert/)
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`ecc-nestjs-patterns`](references/merged/ecc-nestjs-patterns/README.md) — NestJS architecture patterns for modules, controllers, providers, DTO validation, guards, interceptors, config, and production-grade TypeScript backends. Use wh _(from [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/nestjs-patterns))_

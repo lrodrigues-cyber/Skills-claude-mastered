@@ -202,3 +202,8 @@ them to review the plan and choose an execution method before implementation.
 
 **If Native chosen:**
 - **REQUIRED SUB-SKILL:** Use superpowers:executing-plans
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`ecc-plan-orchestrate`](references/merged/ecc-plan-orchestrate/README.md) — Read a plan document, decompose it into steps, classify each step, and emit the ready-to-paste ECC slash command for that step, carrying the step identifier and _(from [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/plan-orchestrate))_

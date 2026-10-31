@@ -281,3 +281,9 @@ These techniques are part of systematic debugging and available in this director
 - **`root-cause-tracing.md`** - Trace bugs backward through call stack to find original trigger
 - **`defense-in-depth.md`** - Add validation at multiple layers after finding root cause
 - **`condition-based-waiting.md`** - Replace arbitrary timeouts with condition polling
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`debugging-wizard`](references/merged/debugging-wizard/README.md) — Parses error messages, traces execution flow through stack traces, correlates log entries to identify failure points, and applies systematic hypothesis-driven m _(from [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills/tree/HEAD/skills/debugging-wizard))_
+- [`debugging-strategies`](references/merged/debugging-strategies/README.md) — Master systematic debugging techniques, profiling tools, and root cause analysis to efficiently track down bugs across any codebase or technology stack. Use whe _(from [wshobson/agents](https://github.com/wshobson/agents/tree/HEAD/plugins/developer-essentials/skills/debugging-strategies))_

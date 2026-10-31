@@ -264,3 +264,8 @@ When author disagrees with your feedback:
 
 ✅ Approve after addressing required changes
 ```
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`code-reviewer`](references/merged/code-reviewer/README.md) — Analyzes code diffs and files to identify bugs, security vulnerabilities (SQL injection, XSS, insecure deserialization), code smells, N+1 queries, naming issues _(from [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills/tree/HEAD/skills/code-reviewer))_

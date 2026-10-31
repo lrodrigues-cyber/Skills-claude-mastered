@@ -61,3 +61,8 @@ Select sharp edges by angle in bmesh: `e.calc_face_angle(0) > math.radians(30)`.
 - Weighted Normal has no effect: faces are flat-shaded, or an earlier modifier destroyed the custom normals.
 - 5.2: the GN `Mesh Bevel` node exists for procedural bevels inside node trees (`blender-geometry-nodes`).
 - Trim-sheet/mid-poly assets: UVs go to the trim strips (`blender-retopology-uv`) and materials tile (`blender-pbr-materials`).
+
+## Merged references
+
+Deeper material folded in from overlapping skills. Read only the file that matches the task.
+- [`blender-lab-mcp--blender-modeling-modifiers`](references/merged/blender-lab-mcp--blender-modeling-modifiers/README.md) — Blender 5.x modifiers, bmesh API, mesh editing operators, sculpting setup — SubSurf, Boolean, Array, Mirror, Bevel, bmesh procedural mesh creation, and modeling _(from [ra100/blender-claude-plugin](https://github.com/ra100/blender-claude-plugin/tree/HEAD/skills/blender-modeling-modifiers))_

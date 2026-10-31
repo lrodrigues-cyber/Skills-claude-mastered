@@ -1,12 +1,12 @@
 # Skills Claude Mastered
 
-4 packs Claude Code (skills + automations), sélectionnés parmi les meilleurs publics — officiels + communauté — repérés sur GitHub, X, YouTube, TikTok, Instagram et les registres de skills. Base de travail → amélioration ultérieure.
+4 packs Claude Code (skills + automations) — **dédoublonnés et améliorés**, voir [CURATION.md](CURATION.md) —, sélectionnés parmi les meilleurs publics — officiels + communauté — repérés sur GitHub, X, YouTube, TikTok, Instagram et les registres de skills. Base de travail → amélioration ultérieure.
 
 | Pack | Contenu | Nb |
 |---|---|---|
-| [01-web-design](01-web-design) | Design web, UI/UX, design systems, accessibilité, GSAP, Motion.dev, Three.js/WebGL | 160 skills |
-| [02-motion-design](02-motion-design) | Remotion, HTML/canvas motion, Manim, formats pub/TikTok/YouTube, Blender pro | 100 skills |
-| [03-code-backend-workflow](03-code-backend-workflow) | Backend/API/DB, archi, debug, tests, sécurité, CI/CD, context engineering, tokens, workflows de session | 267 skills |
+| [01-web-design](01-web-design) | Design web, UI/UX, design systems, accessibilité, GSAP, Motion.dev, Three.js/WebGL | 127 skills |
+| [02-motion-design](02-motion-design) | Remotion, HTML/canvas motion, Manim, formats pub/TikTok/YouTube, Blender pro | 90 skills |
+| [03-code-backend-workflow](03-code-backend-workflow) | Backend/API/DB, archi, debug, tests, sécurité, CI/CD, context engineering, tokens, workflows de session | 232 skills |
 | [04-automations](04-automations) | Plugins : hooks (sécurité, coût, logs), slash commands, agents, auto-amélioration | 36 plugins |
 
 ## Installation

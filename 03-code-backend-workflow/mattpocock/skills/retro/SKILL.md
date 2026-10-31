@@ -1,6 +1,6 @@
 ---
 name: retro
-description: "Conduct a retrospective on a coding session."
+description: "Run a retrospective on a coding session: what worked, what went wrong, what to change in prompts, skills or CLAUDE.md. Use at the end of a long session or after a failed attempt, to capture lessons."
 disable-model-invocation: true
 ---
 
