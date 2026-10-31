@@ -1,21 +1,19 @@
 # ⚙️ Code, Backend & Workflows de session
 
-Backend/API/DB, architecture, debugging, tests, sécurité, CI/CD, observabilité, context engineering et workflows d'agents (TDD, plans, sous-agents).
+Backend/API/DB, architecture, debugging, tests, sécurité, CI/CD, observabilité, context engineering, gestion du contexte/tokens et workflows d'agents (TDD, plans, handoff, sous-agents).
 
-**180 skills** issus de 8 sources. Chaque skill = dossier autonome (`SKILL.md` + ressources) + sa licence d'origine.
+**267 skills** issus de 11 sources. Chaque dossier garde sa licence d'origine.
 
 ## Installation
 
 ```bash
-# un skill
-cp -r 03-code-backend-workflow/<auteur>/<repo>/<skill> ~/.claude/skills/
-# tout le pack
-./install.sh 03-code-backend-workflow
+cp -r 03-code-backend-workflow/<auteur>/<repo>/<skill> ~/.claude/skills/   # un skill
+./install.sh 03-code-backend-workflow                                    # tout le pack
 ```
 
-## [wshobson/agents](https://github.com/wshobson/agents)  · 76 skills
+## [wshobson/agents](https://github.com/wshobson/agents) · 76
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
 |---|---|---|
 | [`ai-debt-detector`](wshobson/agents/ai-debt-detector) · [src](https://github.com/wshobson/agents/tree/HEAD/plugins/skill-forge-essentials/skills/ai-debt-detector) | MIT | Use after generating code, after accepting AI suggestions, or when reviewing AI-written modules. Also use when code works but feels brittle, when error handling seems thin, when or… |
 | [`api-design-principles`](wshobson/agents/api-design-principles) · [src](https://github.com/wshobson/agents/tree/HEAD/plugins/backend-development/skills/api-design-principles) | MIT | Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, reviewing API specifications… |
@@ -94,9 +92,70 @@ cp -r 03-code-backend-workflow/<auteur>/<repo>/<skill> ~/.claude/skills/
 | [`workflow-orchestration-patterns`](wshobson/agents/workflow-orchestration-patterns) · [src](https://github.com/wshobson/agents/tree/HEAD/plugins/backend-development/skills/workflow-orchestration-patterns) | MIT | Design durable workflows with Temporal for distributed systems. Covers workflow vs activity separation, saga patterns, state management, and determinism constraints. Use when build… |
 | [`workflow-patterns`](wshobson/agents/workflow-patterns) · [src](https://github.com/wshobson/agents/tree/HEAD/plugins/conductor/skills/workflow-patterns) | MIT | Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding the verification protocol… |
 
-## [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills)  · 40 skills
+## [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) · 56
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
+|---|---|---|
+| [`ecc-agent-harness-construction`](affaan-m/everything-claude-code/ecc-agent-harness-construction) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/agent-harness-construction) | MIT | Design and optimize AI agent action spaces, tool definitions, and observation formatting for higher completion rates. Use when defining or revising an agent's tool set, action spac… |
+| [`ecc-agentic-engineering`](affaan-m/everything-claude-code/ecc-agentic-engineering) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/agentic-engineering) | MIT | Operate as an agentic engineer using eval-first execution, decomposition, and cost-aware model routing. Use when planning or executing engineering work that agents will carry out e… |
+| [`ecc-ai-regression-testing`](affaan-m/everything-claude-code/ecc-ai-regression-testing) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/ai-regression-testing) | MIT | Regression testing strategies for AI-assisted development. Sandbox-mode API testing without database dependencies, automated bug-check workflows, and patterns to catch AI blind spo… |
+| [`ecc-api-connector-builder`](affaan-m/everything-claude-code/ecc-api-connector-builder) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/api-connector-builder) | MIT | Build a new API connector or provider by matching the target repo's existing integration pattern exactly. Use when adding one more integration without inventing a second architectu… |
+| [`ecc-api-design`](affaan-m/everything-claude-code/ecc-api-design) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/api-design) | MIT | REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs. Use when designing or r… |
+| [`ecc-architecture-decision-records`](affaan-m/everything-claude-code/ecc-architecture-decision-records) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/architecture-decision-records) | MIT | Capture architectural decisions as numbered ADR markdown files in docs/adr/ with context, alternatives considered, consequences, and an index README. Use when the user says 'record… |
+| [`ecc-autonomous-loops`](affaan-m/everything-claude-code/ecc-autonomous-loops) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/autonomous-loops) | MIT | Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven multi-agent DAG systems. Retained for compatibility only: when new auto… |
+| [`ecc-backend-patterns`](affaan-m/everything-claude-code/ecc-backend-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/backend-patterns) | MIT | Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes. Use when building or reviewing Node.j… |
+| [`ecc-benchmark`](affaan-m/everything-claude-code/ecc-benchmark) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/benchmark) | MIT | Measure performance baselines and detect regressions across browser Core Web Vitals (LCP, INP, CLS, page weight), API endpoint latency percentiles, and build/test feedback times, w… |
+| [`ecc-code-tour`](affaan-m/everything-claude-code/ecc-code-tour) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/code-tour) | MIT | Create CodeTour `.tour` files — persona-targeted, step-by-step walkthroughs with real file and line anchors. Use for onboarding tours, architecture walkthroughs, PR tours, RCA tour… |
+| [`ecc-codebase-onboarding`](affaan-m/everything-claude-code/ecc-codebase-onboarding) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/codebase-onboarding) | MIT | Analyze an unfamiliar codebase and generate a structured onboarding guide with architecture map, key entry points, conventions, and a starter CLAUDE.md. Use when joining a new proj… |
+| [`ecc-coding-standards`](affaan-m/everything-claude-code/ecc-coding-standards) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/coding-standards) | MIT | Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use detailed frontend or backend skills for framework-specific patterns. U… |
+| [`ecc-config-gc`](affaan-m/everything-claude-code/ecc-config-gc) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/config-gc) | MIT | Garbage collection for your Claude Code configuration. Periodically scans ~/.claude (skills, memory, hooks, permissions, MCP servers, caches) for redundant, stale, orphaned, or low… |
+| [`ecc-context-and-decisions`](affaan-m/everything-claude-code/ecc-context-and-decisions) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/context-and-decisions) | MIT | Govern stable domain context with a narrowly scoped CONTEXT.md when needed, and route hard-to-reverse decisions to ECC's existing architecture-decision-records skill. Use when doma… |
+| [`ecc-context-budget`](affaan-m/everything-claude-code/ecc-context-budget) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/context-budget) | MIT | Routes live context checks to the native Codex or Claude Code meter without scanning files, and performs a bounded static component audit only when explicitly requested. Use for co… |
+| [`ecc-continuous-learning-v2`](affaan-m/everything-claude-code/ecc-continuous-learning-v2) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/continuous-learning-v2) | MIT | Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents. v2.1 adds project-s… |
+| [`ecc-contract-first`](affaan-m/everything-claude-code/ecc-contract-first) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/contract-first) | MIT | Coordinate frontend/backend or service-to-service work through one authoritative machine-checkable contract (OpenAPI, AsyncAPI, Protocol Buffers, or JSON Schema), with generated co… |
+| [`ecc-cost-aware-llm-pipeline`](affaan-m/everything-claude-code/ecc-cost-aware-llm-pipeline) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/cost-aware-llm-pipeline) | MIT | Cost optimization patterns for LLM API usage — model routing by task complexity, budget tracking, retry logic, and prompt caching. Use when LLM spend needs to come down, or when ro… |
+| [`ecc-database-migrations`](affaan-m/everything-claude-code/ecc-database-migrations) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/database-migrations) | MIT | Safe, reversible database migration patterns: forward-only production changes, expand-contract zero-downtime renames, concurrent indexes, batched backfills, and per-tool workflows … |
+| [`ecc-deployment-patterns`](affaan-m/everything-claude-code/ecc-deployment-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/deployment-patterns) | MIT | Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applications. Use when setti… |
+| [`ecc-dmux-workflows`](affaan-m/everything-claude-code/ecc-dmux-workflows) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/dmux-workflows) | MIT | Multi-agent orchestration using dmux (tmux pane manager for AI agents). Patterns for parallel agent workflows across Claude Code, Codex, OpenCode, and other harnesses. Use when run… |
+| [`ecc-docker-patterns`](affaan-m/everything-claude-code/ecc-docker-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/docker-patterns) | MIT | Docker and Docker Compose patterns for local development, hardened CLI installer harnesses, container security, networking, volumes, and multi-service orchestration. Use when creat… |
+| [`ecc-e2e-testing`](affaan-m/everything-claude-code/ecc-e2e-testing) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/e2e-testing) | MIT | Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies. Use when writing Playwright tests, structuring… |
+| [`ecc-error-handling`](affaan-m/everything-claude-code/ecc-error-handling) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/error-handling) | MIT | Patterns for robust error handling across TypeScript, Python, and Go. Covers typed errors, error boundaries, retries, circuit breakers, and user-facing error messages. Use when des… |
+| [`ecc-eval-harness`](affaan-m/everything-claude-code/ecc-eval-harness) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/eval-harness) | MIT | Eval-driven development (EDD) framework for AI coding sessions — define capability and regression evals before coding, grade with code-based, model-based, rule, or human graders, a… |
+| [`ecc-fastapi-patterns`](affaan-m/everything-claude-code/ecc-fastapi-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/fastapi-patterns) | MIT | FastAPI best practices covering project structure, Pydantic v2 schemas, dependency injection, async handlers, authentication, authorization, transactional service layers, and testi… |
+| [`ecc-gateguard`](affaan-m/everything-claude-code/ecc-gateguard) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/gateguard) | MIT | PreToolUse fact-forcing gate that denies the first Edit/Write/Bash (including MultiEdit and NotebookEdit) attempt until the agent presents concrete facts (importers, data schemas, … |
+| [`ecc-git-workflow`](affaan-m/everything-claude-code/ecc-git-workflow) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/git-workflow) | MIT | Git workflow patterns including branching strategies, commit conventions, keeping history clean and readable, tidying local commits before merging, merge vs rebase, conflict resolu… |
+| [`ecc-github-ops`](affaan-m/everything-claude-code/ecc-github-ops) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/github-ops) | MIT | GitHub repository operations, automation, and management. Issue triage, PR management, CI/CD operations, release management, and security monitoring using the gh CLI. Use when the … |
+| [`ecc-golang-patterns`](affaan-m/everything-claude-code/ecc-golang-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/golang-patterns) | MIT | Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications. Use when writing or reviewing Go code and idiomatic structu… |
+| [`ecc-hexagonal-architecture`](affaan-m/everything-claude-code/ecc-hexagonal-architecture) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/hexagonal-architecture) | MIT | Design, implement, and refactor Ports & Adapters systems with clear domain boundaries, dependency inversion, and testable use-case orchestration across TypeScript, Java, Kotlin, an… |
+| [`ecc-iterative-retrieval`](affaan-m/everything-claude-code/ecc-iterative-retrieval) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/iterative-retrieval) | MIT | Pattern for progressively refining context retrieval to solve the subagent context problem. Use when a subagent lacks the context it needs and retrieval must be refined across pass… |
+| [`ecc-kubernetes-patterns`](affaan-m/everything-claude-code/ecc-kubernetes-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/kubernetes-patterns) | MIT | Kubernetes workload patterns, resource management, RBAC, probes, autoscaling, ConfigMap/Secret handling, and kubectl debugging for production-grade deployments. Use when writing or… |
+| [`ecc-latency-critical-systems`](affaan-m/everything-claude-code/ecc-latency-critical-systems) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/latency-critical-systems) | MIT | Optimize and verify latency-sensitive systems — realtime dashboards, market data feeds, streaming agents, execution gateways, queues, and caches — by tracking p50/p95/p99 latency, … |
+| [`ecc-nestjs-patterns`](affaan-m/everything-claude-code/ecc-nestjs-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/nestjs-patterns) | MIT | NestJS architecture patterns for modules, controllers, providers, DTO validation, guards, interceptors, config, and production-grade TypeScript backends. Use when building or revie… |
+| [`ecc-parallel-execution-optimizer`](affaan-m/everything-claude-code/ecc-parallel-execution-optimizer) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/parallel-execution-optimizer) | MIT | Speed up a task by turning it into a dependency graph of parallel lanes with a lane matrix, batched reads and checks, write surfaces isolated by file, worktree, branch, or service,… |
+| [`ecc-plan-orchestrate`](affaan-m/everything-claude-code/ecc-plan-orchestrate) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/plan-orchestrate) | MIT | Read a plan document, decompose it into steps, classify each step, and emit the ready-to-paste ECC slash command for that step, carrying the step identifier and scope in the comman… |
+| [`ecc-postgres-patterns`](affaan-m/everything-claude-code/ecc-postgres-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/postgres-patterns) | MIT | PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices. Use when designing PostgreSQL schemas, indexes, or RLS… |
+| [`ecc-prisma-patterns`](affaan-m/everything-claude-code/ecc-prisma-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/prisma-patterns) | MIT | Prisma ORM patterns for TypeScript backends — schema design, query optimization, transactions, pagination, and critical traps like updateMany returning count not records, $transact… |
+| [`ecc-production-audit`](affaan-m/everything-claude-code/ecc-production-audit) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/production-audit) | MIT | Local-evidence production readiness audit for shipped apps, pre-launch reviews, post-merge checks, and "what breaks in prod?" questions without sending repo data to an external aud… |
+| [`ecc-prompt-caching-strategy`](affaan-m/everything-claude-code/ecc-prompt-caching-strategy) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/prompt-caching-strategy) | MIT | Optimize LLM prompt caching hit rate to reduce API costs and improve latency. Analyzes prompt structure, identifies cacheable vs non-cacheable content, and recommends restructuring… |
+| [`ecc-python-patterns`](affaan-m/everything-claude-code/ecc-python-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/python-patterns) | MIT | Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient, and maintainable Python applications. Use when writing or reviewing Python code and… |
+| [`ecc-redis-patterns`](affaan-m/everything-claude-code/ecc-redis-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/redis-patterns) | MIT | Redis data structure patterns, caching strategies, distributed locks, rate limiting, pub/sub, and connection management for production applications. Use when adding caching, a dist… |
+| [`ecc-rules-distill`](affaan-m/everything-claude-code/ecc-rules-distill) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/rules-distill) | MIT | Scan skills to extract cross-cutting principles and distill them into rules — append, revise, or create new rule files. Use when the same principle keeps recurring across skills an… |
+| [`ecc-rust-patterns`](affaan-m/everything-claude-code/ecc-rust-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/rust-patterns) | MIT | Idiomatic Rust patterns, ownership, error handling, traits, concurrency, and best practices for building safe, performant applications. Use when writing or reviewing Rust code and … |
+| [`ecc-safety-guard`](affaan-m/everything-claude-code/ecc-safety-guard) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/safety-guard) | MIT | Guard against destructive operations with three modes: Careful intercepts dangerous commands (rm -rf, git push --force, DROP TABLE) for confirmation, Freeze locks writes to one dir… |
+| [`ecc-search-first`](affaan-m/everything-claude-code/ecc-search-first) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/search-first) | MIT | Research-before-coding workflow: search npm/PyPI, MCP servers, skills, and GitHub for existing tools before writing custom code, then adopt, extend, or build. Launches the research… |
+| [`ecc-security-review`](affaan-m/everything-claude-code/ecc-security-review) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/security-review) | MIT | Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive sec… |
+| [`ecc-security-scan`](affaan-m/everything-claude-code/ecc-security-scan) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/security-scan) | MIT | Scan your Claude Code configuration (.claude/ directory) for security vulnerabilities, misconfigurations, and injection risks using AgentShield. Checks CLAUDE.md, settings.json, MC… |
+| [`ecc-skill-stocktake`](affaan-m/everything-claude-code/ecc-skill-stocktake) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/skill-stocktake) | MIT | Use when auditing Claude skills and commands for quality. Supports Quick Scan (changed skills only) and Full Stocktake modes with sequential subagent batch evaluation. |
+| [`ecc-strategic-compact`](affaan-m/everything-claude-code/ecc-strategic-compact) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/strategic-compact) | MIT | Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction. Use when a session is approaching a context l… |
+| [`ecc-tdd-workflow`](affaan-m/everything-claude-code/ecc-tdd-workflow) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/tdd-workflow) | MIT | Test-driven development workflow: write a failing test first, watch it fail, implement the smallest change to green, then refactor with 80%+ coverage across unit, integration, and … |
+| [`ecc-team-agent-orchestration`](affaan-m/everything-claude-code/ecc-team-agent-orchestration) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/team-agent-orchestration) | MIT | Run team-based orchestration for agent squads: work items with owners and scope, agent Kanban state, branch isolation, control pane visibility, and merge gates. Use when coordinati… |
+| [`ecc-token-budget-advisor`](affaan-m/everything-claude-code/ecc-token-budget-advisor) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/token-budget-advisor) | MIT | Offer a choice of response depth (25%/50%/75%/100%) with token estimates before answering, then answer at that level. Use when the user asks to control response length or token bud… |
+| [`ecc-typescript-patterns`](affaan-m/everything-claude-code/ecc-typescript-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/typescript-patterns) | MIT | TypeScript patterns for strict, type-safe, maintainable code in modern TypeScript and JavaScript applications. Covers strict compiler configuration, type design, narrowing, discrim… |
+| [`ecc-verification-loop`](affaan-m/everything-claude-code/ecc-verification-loop) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/verification-loop) | MIT | Run a six-phase verification of a Claude Code session's work — build, type check, lint, tests with coverage, security grep, and diff review — then produce a PASS/FAIL verification … |
+
+## [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills) · 40
+
+| Nom | Licence | Description |
 |---|---|---|
 | [`api-designer`](Jeffallan/claude-skills/api-designer) · [src](https://github.com/Jeffallan/claude-skills/tree/HEAD/skills/api-designer) | MIT | Use when designing REST or GraphQL APIs, creating OpenAPI specifications, or planning API architecture. Invoke for resource modeling, versioning strategies, pagination patterns, er… |
 | [`architecture-designer`](Jeffallan/claude-skills/architecture-designer) · [src](https://github.com/Jeffallan/claude-skills/tree/HEAD/skills/architecture-designer) | MIT | Use when designing new high-level system architecture, reviewing existing designs, or making architectural decisions. Invoke to create architecture diagrams, write Architecture Dec… |
@@ -139,9 +198,44 @@ cp -r 03-code-backend-workflow/<auteur>/<repo>/<skill> ~/.claude/skills/
 | [`typescript-pro`](Jeffallan/claude-skills/typescript-pro) · [src](https://github.com/Jeffallan/claude-skills/tree/HEAD/skills/typescript-pro) | MIT | Implements advanced TypeScript type systems, creates custom type guards, utility types, and branded types, and configures tRPC for end-to-end type safety. Use when building TypeScr… |
 | [`websocket-engineer`](Jeffallan/claude-skills/websocket-engineer) · [src](https://github.com/Jeffallan/claude-skills/tree/HEAD/skills/websocket-engineer) | MIT | Use when building real-time communication systems with WebSockets or Socket.IO. Invoke for bidirectional messaging, horizontal scaling with Redis, presence tracking, room managemen… |
 
-## [trailofbits/skills](https://github.com/trailofbits/skills)  · 19 skills
+## [mattpocock/skills](https://github.com/mattpocock/skills) · 30
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
+|---|---|---|
+| [`ask-matt`](mattpocock/skills/ask-matt) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/ask-matt) | MIT | Ask which skill or flow fits your situation. A router over the skills in this repo. |
+| [`claude-handoff`](mattpocock/skills/claude-handoff) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/in-progress/claude-handoff) | MIT | Hand the current conversation off to a fresh background agent that picks up the work immediately. |
+| [`code-review`](mattpocock/skills/code-review) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/code-review) | MIT | Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec (does… |
+| [`codebase-design`](mattpocock/skills/codebase-design) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/codebase-design) | MIT | Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code m… |
+| [`diagnosing-bugs`](mattpocock/skills/diagnosing-bugs) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/diagnosing-bugs) | MIT | Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow. |
+| [`domain-modeling`](mattpocock/skills/domain-modeling) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/domain-modeling) | MIT | Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a GLOSSARY.md, or recording or editing an ADR. |
+| [`git-guardrails-claude-code`](mattpocock/skills/git-guardrails-claude-code) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/misc/git-guardrails-claude-code) | MIT | Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations… |
+| [`grill-me`](mattpocock/skills/grill-me) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/grill-me) | MIT | A relentless interview to sharpen a plan or design. |
+| [`grill-with-docs`](mattpocock/skills/grill-with-docs) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/grill-with-docs) | MIT | A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go. |
+| [`grilling`](mattpocock/skills/grilling) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/grilling) | MIT | Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases. |
+| [`handoff`](mattpocock/skills/handoff) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/handoff) | MIT | Compact the current conversation into a handoff document for another agent to pick up. |
+| [`implement`](mattpocock/skills/implement) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/implement) | MIT | Implement a piece of work based on a spec or set of tickets. |
+| [`implement-spec`](mattpocock/skills/implement-spec) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/implement-spec) | MIT | Implement the result of /to-spec and /to-tickets in code. |
+| [`improve-codebase-architecture`](mattpocock/skills/improve-codebase-architecture) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/improve-codebase-architecture) | MIT | Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick. |
+| [`pr`](mattpocock/skills/pr) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/pr) | MIT | Use when writing a PR body. |
+| [`prototype`](mattpocock/skills/prototype) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/prototype) | MIT | Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like. |
+| [`research`](mattpocock/skills/research) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/research) | MIT | Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gat… |
+| [`retro`](mattpocock/skills/retro) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/retro) | MIT | Conduct a retrospective on a coding session. |
+| [`setup-matt-pocock-skills`](mattpocock/skills/setup-matt-pocock-skills) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/setup-matt-pocock-skills) | MIT | Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills. |
+| [`setup-pre-commit`](mattpocock/skills/setup-pre-commit) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/misc/setup-pre-commit) | MIT | Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-s… |
+| [`tdd`](mattpocock/skills/tdd) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/tdd) | MIT | Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green-refactor", or wants integration tests. |
+| [`teach`](mattpocock/skills/teach) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/teach) | MIT | Teach the user a new skill or concept, within this workspace. |
+| [`to-questionnaire`](mattpocock/skills/to-questionnaire) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/to-questionnaire) | MIT | Turn a decision you can't fully answer into a questionnaire for someone else to fill in. |
+| [`to-spec`](mattpocock/skills/to-spec) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/to-spec) | MIT | Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you've already discussed. |
+| [`to-tickets`](mattpocock/skills/to-tickets) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/to-tickets) | MIT | Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker (edges as text in one fi… |
+| [`triage`](mattpocock/skills/triage) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/triage) | MIT | Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and write agent-ready briefs. |
+| [`wait-what`](mattpocock/skills/wait-what) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/wait-what) | MIT | Stop. That last message did not land: re-pitch it. |
+| [`wayfinder`](mattpocock/skills/wayfinder) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/wayfinder) | MIT | Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the dest… |
+| [`wizard`](mattpocock/skills/wizard) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/wizard) | MIT | Generate an interactive bash wizard that walks a human through steps only they can perform. Use when provisioning infrastructure, setting up credentials or CI secrets, walking an u… |
+| [`writing-for-agents`](mattpocock/skills/writing-for-agents) · [src](https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/writing-for-agents) | MIT | Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md. |
+
+## [trailofbits/skills](https://github.com/trailofbits/skills) · 19
+
+| Nom | Licence | Description |
 |---|---|---|
 | [`code-improver`](trailofbits/skills/code-improver) · [src](https://github.com/trailofbits/skills/tree/HEAD/plugins/code-improver/skills/code-improver) | CC-BY-SA-4.0 | Runs an autonomous review-and-fix improvement loop over any code target — a skill, plugin, module, or directory — using a reviewer the user names: any installed skill or agent. Kee… |
 | [`codeql`](trailofbits/skills/codeql) · [src](https://github.com/trailofbits/skills/tree/HEAD/plugins/static-analysis/skills/codeql) | CC-BY-SA-4.0 | Scans a codebase for security vulnerabilities using CodeQL's interprocedural data flow and taint tracking analysis. Triggers on "run codeql", "codeql scan", "build codeql database"… |
@@ -163,9 +257,9 @@ cp -r 03-code-backend-workflow/<auteur>/<repo>/<skill> ~/.claude/skills/
 | [`supply-chain-risk-auditor`](trailofbits/skills/supply-chain-risk-auditor) · [src](https://github.com/trailofbits/skills/tree/HEAD/plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor) | CC-BY-SA-4.0 | Audits a project's dependencies for supply-chain risk: version-matched advisories for direct dependencies and the full lockfile tree, abandoned or archived upstreams, npm publisher… |
 | [`variant-analysis`](trailofbits/skills/variant-analysis) · [src](https://github.com/trailofbits/skills/tree/HEAD/plugins/variant-analysis/skills/variant-analysis) | CC-BY-SA-4.0 | Hunts for the other instances of a bug already found — the variants of one root cause across a codebase. Use immediately after a vulnerability, logic bug, or bad pattern turns up i… |
 
-## [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)  · 18 skills
+## [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) · 18
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
 |---|---|---|
 | [`advanced-evaluation`](muratcankoylan/Agent-Skills-for-Context-Engineering/advanced-evaluation) · [src](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/HEAD/skills/advanced-evaluation) | MIT | This skill should be used for advanced LLM evaluation: LLM-as-judge systems, direct scoring, pairwise comparison, rubric calibration, evaluator bias mitigation, confidence scoring,… |
 | [`bdi-mental-states`](muratcankoylan/Agent-Skills-for-Context-Engineering/bdi-mental-states) · [src](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/HEAD/skills/bdi-mental-states) | MIT | This skill should be used when modeling agent mental states with BDI concepts: beliefs, desires, intentions, RDF-to-belief transformations, rational agency traces, cognitive agents… |
@@ -186,9 +280,9 @@ cp -r 03-code-backend-workflow/<auteur>/<repo>/<skill> ~/.claude/skills/
 | [`self-managed-context`](muratcankoylan/Agent-Skills-for-Context-Engineering/self-managed-context) · [src](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/HEAD/skills/self-managed-context) | MIT | This skill should be used when a model gets read-write control over its own live context window instead of a harness-scheduled compaction policy: the context exposed as an editable… |
 | [`tool-design`](muratcankoylan/Agent-Skills-for-Context-Engineering/tool-design) · [src](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/HEAD/skills/tool-design) | MIT | This skill should be used for the tool-interface layer of an agent system specifically: writing tool descriptions agents can route on, designing tool schemas and response formats, … |
 
-## [obra/superpowers](https://github.com/obra/superpowers)  · 15 skills
+## [obra/superpowers](https://github.com/obra/superpowers) · 15
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
 |---|---|---|
 | [`brainstorming`](obra/superpowers/brainstorming) · [src](https://github.com/obra/superpowers/tree/HEAD/skills/brainstorming) | MIT | You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a… |
 | [`diagnosing-superpowers`](obra/superpowers/diagnosing-superpowers) · [src](https://github.com/obra/superpowers/tree/HEAD/skills/diagnosing-superpowers) | MIT | Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, "it took too lo… |
@@ -206,9 +300,9 @@ cp -r 03-code-backend-workflow/<auteur>/<repo>/<skill> ~/.claude/skills/
 | [`writing-plans`](obra/superpowers/writing-plans) · [src](https://github.com/obra/superpowers/tree/HEAD/skills/writing-plans) | MIT | Use when you have a spec or requirements for a multi-step task, before touching code |
 | [`writing-skills`](obra/superpowers/writing-skills) · [src](https://github.com/obra/superpowers/tree/HEAD/skills/writing-skills) | MIT | Use when creating new skills, editing existing skills, or verifying skills work before deployment |
 
-## [openai/skills](https://github.com/openai/skills)  · 7 skills
+## [openai/skills](https://github.com/openai/skills) · 7
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
 |---|---|---|
 | [`openai-cli-creator`](openai/skills/openai-cli-creator) · [src](https://github.com/openai/skills/tree/HEAD/skills/.curated/cli-creator) | Apache-2.0 | Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to creat… |
 | [`openai-gh-address-comments`](openai/skills/openai-gh-address-comments) · [src](https://github.com/openai/skills/tree/HEAD/skills/.curated/gh-address-comments) | Apache-2.0 | Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in. |
@@ -218,22 +312,30 @@ cp -r 03-code-backend-workflow/<auteur>/<repo>/<skill> ~/.claude/skills/
 | [`openai-security-threat-model`](openai/skills/openai-security-threat-model) · [src](https://github.com/openai/skills/tree/HEAD/skills/.curated/security-threat-model) | Apache-2.0 | Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigg… |
 | [`openai-sentry`](openai/skills/openai-sentry) · [src](https://github.com/openai/skills/tree/HEAD/skills/.curated/sentry) | Apache-2.0 | Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using … |
 
-## [anthropics/skills](https://github.com/anthropics/skills)  · 4 skills
+## [anthropics/skills](https://github.com/anthropics/skills) · 4
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
 |---|---|---|
 | [`claude-api`](anthropics/skills/claude-api) · [src](https://github.com/anthropics/skills/tree/HEAD/skills/claude-api) | Apache-2.0 | Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration. TRIGGER — read BEFORE opening… |
 | [`mcp-builder`](anthropics/skills/mcp-builder) · [src](https://github.com/anthropics/skills/tree/HEAD/skills/mcp-builder) | Apache-2.0 | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers … |
 | [`skill-creator`](anthropics/skills/skill-creator) · [src](https://github.com/anthropics/skills/tree/HEAD/skills/skill-creator) | Apache-2.0 | Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run e… |
 | [`webapp-testing`](anthropics/skills/webapp-testing) · [src](https://github.com/anthropics/skills/tree/HEAD/skills/webapp-testing) | Apache-2.0 | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, a… |
 
-## [lackeyjb/playwright-skill](https://github.com/lackeyjb/playwright-skill)  · 1 skills
+## [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) · 1
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
+|---|---|---|
+| [`planning-with-files`](OthmanAdi/planning-with-files/planning-with-files) · [src](https://github.com/OthmanAdi/planning-with-files/tree/HEAD/skills/planning-with-files) | MIT | Persistent file-based planning for multi-step AI-agent work. Keeps task_plan.md, findings.md, and progress.md on disk; lifecycle hooks inject selected project planning context. Aut… |
+
+## [lackeyjb/playwright-skill](https://github.com/lackeyjb/playwright-skill) · 1
+
+| Nom | Licence | Description |
 |---|---|---|
 | [`playwright-skill`](lackeyjb/playwright-skill/playwright-skill) · [src](https://github.com/lackeyjb/playwright-skill/tree/HEAD/skills/playwright-skill) | MIT | Complete browser automation with Playwright. Auto-detects dev servers, writes reusable test scripts, and supports screenshots, responsive checks, UX validation, login flows, link c… |
 
-## 🔗 Référencés (non copiés — licence ou format)
+## 🔗 Référencés (non copiés — licence, format ou runtime)
 
-- [Get Shit Done (GSD) — spec-driven dev / context engineering](https://github.com/gsd-build/get-shit-done) — Système de commandes (pas de SKILL.md) : `npx get-shit-done-cc`
-- [Excalidraw diagram skill](https://github.com/coleam00/excalidraw-diagram-skill) — Pas de licence → installer depuis la source
+- [Karpathy CLAUDE.md (andrej-karpathy-skills)](https://github.com/forrestchang/andrej-karpathy-skills) — 227k⭐, pas de licence → copier le CLAUDE.md à la main
+- [Get Shit Done (GSD)](https://github.com/gsd-build/get-shit-done) — Système de commandes : `npx get-shit-done-cc`
+- [Excalidraw diagram skill](https://github.com/coleam00/excalidraw-diagram-skill) — Pas de licence
+- [token-optimizer](https://github.com/alexgreensh/token-optimizer) — Audit tokens, pas de licence

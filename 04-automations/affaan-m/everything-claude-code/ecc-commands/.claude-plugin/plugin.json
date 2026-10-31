@@ -1,0 +1,4 @@
+{
+  "name": "ecc-commands",
+  "description": "Everything Claude Code slash commands (plan, tdd, code-review, multi-agent orchestration, quality gates)"
+}

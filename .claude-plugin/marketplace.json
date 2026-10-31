@@ -1,0 +1,191 @@
+{
+  "name": "skills-claude-mastered",
+  "owner": {
+    "name": "lrodrigues-cyber"
+  },
+  "metadata": {
+    "description": "Curated Claude Code automations (hooks, commands, plugins)"
+  },
+  "plugins": [
+    {
+      "name": "auto-stage",
+      "source": "./04-automations/karanb192/claude-code-hooks/auto-stage",
+      "description": "Automatic git staging for Claude Code. A PostToolUse hook on Edit|Write runs `git add` on every file Claude modifies, so `git status` always shows exactly what Claude touched and p"
+    },
+    {
+      "name": "block-dangerous-commands",
+      "source": "./04-automations/karanb192/claude-code-hooks/block-dangerous-commands",
+      "description": "A PreToolUse guard for Bash that blocks dangerous shell commands before they execute: rm targeting home/root/system dirs, dd to disk devices, mkfs, fork bombs, curl|sh, force push "
+    },
+    {
+      "name": "bounty-board",
+      "source": "./04-automations/karanb192/claude-code-hooks/bounty-board",
+      "description": "Turns your repo's tech debt into an aging bounty economy. A SessionStart hook scans tracked files and prices each TODO/FIXME/HACK/skip as a wanted-poster bounty whose XP grows with"
+    },
+    {
+      "name": "cache-tax",
+      "source": "./04-automations/karanb192/claude-code-hooks/cache-tax",
+      "description": "The comeback price of a cold prompt cache, shown before you pay it. A UserPromptSubmit guard warns (or refuses once) when your next message will re-write a lapsed 1-hour cache at u"
+    },
+    {
+      "name": "case-insensitive-guard",
+      "source": "./04-automations/karanb192/claude-code-hooks/case-insensitive-guard",
+      "description": "Stops `rm -rf content` silently destroying `Content` on case-insensitive filesystems (APFS default, exFAT, NTFS). A PreToolUse hook on Bash that resolves the real target of destruc"
+    },
+    {
+      "name": "config-guard",
+      "source": "./04-automations/karanb192/claude-code-hooks/config-guard",
+      "description": "Who guards the guards: a PreToolUse hook that blocks the agent from tampering with its own guardrail configuration. Deny-by-default protection for settings.json, hook scripts and h"
+    },
+    {
+      "name": "config-watch",
+      "source": "./04-automations/karanb192/claude-code-hooks/config-watch",
+      "description": "Tripwire for out-of-band config changes in Claude Code. A ConfigChange hook fires whenever settings (user, project, local, policy) or skills change mid-session, from an installer s"
+    },
+    {
+      "name": "context-hogs",
+      "source": "./04-automations/karanb192/claude-code-hooks/context-hogs",
+      "description": "A per-file context-cost leaderboard for Claude Code. A PostToolUse hook (async, zero added latency) attributes every tool result's tokens to the file(s) it pulled into context; at "
+    },
+    {
+      "name": "dead-end-registry",
+      "source": "./04-automations/karanb192/claude-code-hooks/dead-end-registry",
+      "description": "Approach-level negative-knowledge memory for Claude Code. Mines your transcripts (Stop/PreCompact, both async and zero added latency) for approaches you TRIED and then REVERTED (wi"
+    },
+    {
+      "name": "dead-rules-audit",
+      "source": "./04-automations/karanb192/claude-code-hooks/dead-rules-audit",
+      "description": "A CLAUDE.md compliance flight-recorder for Claude Code. At SessionStart it parses CLAUDE.md into numbered atomic rules; on every Edit/MultiEdit/Write a PostToolUse hook (async, zer"
+    },
+    {
+      "name": "format-code",
+      "source": "./04-automations/karanb192/claude-code-hooks/format-code",
+      "description": "Auto-formats files the moment Claude writes them. A PostToolUse hook on Write|Edit runs ruff (check --fix + format, via uv) on Python and prettier (via npx) on JS/TS/JSON/MD/YAML/H"
+    },
+    {
+      "name": "git-safety",
+      "source": "./04-automations/karanb192/claude-code-hooks/git-safety",
+      "description": "Branch-aware git guardrails for Claude Code. A PreToolUse hook on Bash that denies destructive git and gh CLI operations before they run: pushing to main/master, deleting protected"
+    },
+    {
+      "name": "guard-pack",
+      "source": "./04-automations/karanb192/claude-code-hooks/guard-pack",
+      "description": "All seven guard hooks in one Node process: subagent-spawn-cap, config-guard, block-dangerous-commands, protect-secrets, protect-tests, git-safety, and case-insensitive-guard, evalu"
+    },
+    {
+      "name": "instructions-audit",
+      "source": "./04-automations/karanb192/claude-code-hooks/instructions-audit",
+      "description": "A prompt-injection tripwire for instruction files. An InstructionsLoaded hook audits CLAUDE.md / .claude/rules/*.md content as it enters context and flags hidden or hostile directi"
+    },
+    {
+      "name": "nerf-receipts",
+      "source": "./04-automations/karanb192/claude-code-hooks/nerf-receipts",
+      "description": "A personal flight recorder for Claude Code quality. Background hooks (async, zero added latency) record your own per-session signals keyed by model id and Claude Code version: tool"
+    },
+    {
+      "name": "notify-permission",
+      "source": "./04-automations/karanb192/claude-code-hooks/notify-permission",
+      "description": "Slack alerts when Claude Code needs you. A Notification hook on permission_prompt|idle_prompt|elicitation_dialog classifies each notification (from notification_type when present, "
+    },
+    {
+      "name": "pr-provenance-stamp",
+      "source": "./04-automations/karanb192/claude-code-hooks/pr-provenance-stamp",
+      "description": "Embeds a reviewer-facing provenance receipt into your PR body when Claude runs `gh pr create` (or `glab mr create`). A PostToolUse hook (async, zero added latency) records a per-se"
+    },
+    {
+      "name": "protect-secrets",
+      "source": "./04-automations/karanb192/claude-code-hooks/protect-secrets",
+      "description": "A secrets firewall for Claude Code. A PreToolUse hook screens every Read, Edit, Write, Bash, and Grep call against tiered patterns (critical/high/strict): sensitive files like .env"
+    },
+    {
+      "name": "protect-tests",
+      "source": "./04-automations/karanb192/claude-code-hooks/protect-tests",
+      "description": "Stops the \"fake green\" failure mode for Claude Code. A PreToolUse guard on Bash|Edit|MultiEdit|Write that denies making a suite pass by deleting test files or directories (rm / git"
+    },
+    {
+      "name": "session-logger",
+      "source": "./04-automations/karanb192/claude-code-hooks/session-logger",
+      "description": "A durable, greppable markdown log of every Claude Code session. SessionStart seeds a note (timestamps, cwd, git repo/branch), an async PostToolUse hook appends every Edit/Write/Rea"
+    },
+    {
+      "name": "standup-autopilot",
+      "source": "./04-automations/karanb192/claude-code-hooks/standup-autopilot",
+      "description": "Turns what your agents ACTUALLY did into a standup: captured from session transcripts (not commits/tickets, which miss uncommitted work, real test exit codes, and unresolved errors"
+    },
+    {
+      "name": "subagent-spawn-cap",
+      "source": "./04-automations/karanb192/claude-code-hooks/subagent-spawn-cap",
+      "description": "A total-spawns-per-session budget for subagents: a PreToolUse guard on the Agent tool that counts every spawn in a session (nested spawns from inside subagents included), asks for "
+    },
+    {
+      "name": "code-setup",
+      "source": "./04-automations/anthropics/claude-plugins-official/claude-code-setup",
+      "description": "Analyze codebases and recommend tailored Claude Code automations such as hooks, skills, MCP servers, and subagents."
+    },
+    {
+      "name": "md-management",
+      "source": "./04-automations/anthropics/claude-plugins-official/claude-md-management",
+      "description": "Tools to maintain and improve CLAUDE.md files - audit quality, capture session learnings, and keep project memory current."
+    },
+    {
+      "name": "code-simplifier",
+      "source": "./04-automations/anthropics/claude-plugins-official/code-simplifier",
+      "description": "Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality"
+    },
+    {
+      "name": "commit-commands",
+      "source": "./04-automations/anthropics/claude-plugins-official/commit-commands",
+      "description": "Streamline your git workflow with simple commands for committing, pushing, and creating pull requests"
+    },
+    {
+      "name": "feature-dev",
+      "source": "./04-automations/anthropics/claude-plugins-official/feature-dev",
+      "description": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review"
+    },
+    {
+      "name": "hookify",
+      "source": "./04-automations/anthropics/claude-plugins-official/hookify",
+      "description": "Easily create hooks to prevent unwanted behaviors by analyzing conversation patterns"
+    },
+    {
+      "name": "mcp-server-dev",
+      "source": "./04-automations/anthropics/claude-plugins-official/mcp-server-dev",
+      "description": "Skills for designing and building MCP servers that work seamlessly with Claude — guides you through deployment models (remote HTTP, MCPB, local), tool design patterns, auth, and in"
+    },
+    {
+      "name": "plugin-dev",
+      "source": "./04-automations/anthropics/claude-plugins-official/plugin-dev",
+      "description": "Plugin development toolkit with skills for creating agents, commands, hooks, MCP integrations, and comprehensive plugin structure guidance"
+    },
+    {
+      "name": "pr-review-toolkit",
+      "source": "./04-automations/anthropics/claude-plugins-official/pr-review-toolkit",
+      "description": "Comprehensive PR review agents specializing in comments, tests, error handling, type design, code quality, and code simplification"
+    },
+    {
+      "name": "ralph-loop",
+      "source": "./04-automations/anthropics/claude-plugins-official/ralph-loop",
+      "description": "Continuous self-referential AI loops for interactive iterative development, implementing the Ralph Wiggum technique. Run Claude in a while-true loop with the same prompt until task"
+    },
+    {
+      "name": "security-guidance",
+      "source": "./04-automations/anthropics/claude-plugins-official/security-guidance",
+      "description": "Security review for Claude-generated code. Pattern-based warnings on edits, LLM-powered diff review on Stop, and an agentic commit reviewer that catches injection, XSS, SSRF, hardc"
+    },
+    {
+      "name": "session-report",
+      "source": "./04-automations/anthropics/claude-plugins-official/session-report",
+      "description": "Session usage report: tokens, cache, subagents, skills"
+    },
+    {
+      "name": "reflect",
+      "source": "./04-automations/BayramAnnakov/claude-reflect/claude-reflect",
+      "description": "Self-learning system for Claude Code that captures corrections and updates CLAUDE.md automatically"
+    },
+    {
+      "name": "ecc-commands",
+      "source": "./04-automations/affaan-m/everything-claude-code/ecc-commands",
+      "description": "Everything Claude Code slash commands (plan, tdd, code-review, multi-agent orchestration, quality gates)"
+    }
+  ]
+}

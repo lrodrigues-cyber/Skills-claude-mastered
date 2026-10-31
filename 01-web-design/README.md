@@ -1,21 +1,19 @@
 # 🎨 Web Design & Interfaces
 
-Design de sites, UI/UX, design systems, accessibilité, animations web (GSAP), 3D web (Three.js).
+Design de sites, UI/UX, design systems, accessibilité, animations web (GSAP, Motion.dev), 3D web (Three.js/WebGL).
 
-**125 skills** issus de 14 sources. Chaque skill = dossier autonome (`SKILL.md` + ressources) + sa licence d'origine.
+**160 skills** issus de 20 sources. Chaque dossier garde sa licence d'origine.
 
 ## Installation
 
 ```bash
-# un skill
-cp -r 01-web-design/<auteur>/<repo>/<skill> ~/.claude/skills/
-# tout le pack
-./install.sh 01-web-design
+cp -r 01-web-design/<auteur>/<repo>/<skill> ~/.claude/skills/   # un skill
+./install.sh 01-web-design                                    # tout le pack
 ```
 
-## [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills)  · 61 skills
+## [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills) · 61
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
 |---|---|---|
 | [`accessibility-audit`](Owl-Listener/designer-skills/accessibility-audit) · [src](https://github.com/Owl-Listener/designer-skills/tree/HEAD/design-systems/skills/accessibility-audit) | MIT | Audit an existing interface against WCAG, producing findings with severity ratings and remediation steps. Use when you have a design or build to assess now. Not for planning future… |
 | [`aesthetic-usability`](Owl-Listener/designer-skills/aesthetic-usability) · [src](https://github.com/Owl-Listener/designer-skills/tree/HEAD/ui-design/skills/aesthetic-usability) | MIT | Apply the Aesthetic-Usability Effect — polished, consistent interfaces are perceived as more usable and forgive minor friction. Use when justifying visual polish or diagnosing why … |
@@ -79,9 +77,33 @@ cp -r 01-web-design/<auteur>/<repo>/<skill> ~/.claude/skills/
 | [`von-restorff-effect`](Owl-Listener/designer-skills/von-restorff-effect) · [src](https://github.com/Owl-Listener/designer-skills/tree/HEAD/ui-design/skills/von-restorff-effect) | MIT | Apply the Von Restorff Effect — the element that differs from its neighbours is the one remembered. Use when a single action must dominate. For overall ordering rather than single-… |
 | [`zeigarnik-effect`](Owl-Listener/designer-skills/zeigarnik-effect) · [src](https://github.com/Owl-Listener/designer-skills/tree/HEAD/interaction-design/skills/zeigarnik-effect) | MIT | Apply the Zeigarnik Effect — incomplete tasks stay mentally active. Use when designing progress indicators, saved drafts, and return hooks. For the emotional shape of the ending, u… |
 
-## [wshobson/agents](https://github.com/wshobson/agents)  · 13 skills
+## [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) · 19
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
+|---|---|---|
+| [`ecc-accessibility`](affaan-m/everything-claude-code/ecc-accessibility) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/accessibility) | MIT | Design, implement, and audit accessible UI to WCAG 2.2 Level AA across Web, iOS, and Android — semantic ARIA roles and labels, accessibility traits and hints, focus management, con… |
+| [`ecc-browser-qa`](affaan-m/everything-claude-code/ecc-browser-qa) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/browser-qa) | MIT | Run automated post-deploy UI verification with a browser automation MCP (claude-in-chrome, Playwright, or Puppeteer): console-error and Core Web Vitals smoke checks, form and auth-… |
+| [`ecc-click-path-audit`](affaan-m/everything-claude-code/ecc-click-path-audit) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/click-path-audit) | MIT | Trace every user-facing button/touchpoint through its full state change sequence to find bugs where functions individually work but cancel each other out, produce wrong final state… |
+| [`ecc-dashboard-builder`](affaan-m/everything-claude-code/ecc-dashboard-builder) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/dashboard-builder) | MIT | Build monitoring dashboards that answer real operator questions for Grafana, SigNoz, and similar platforms. Use when turning metrics into a working dashboard instead of a vanity bo… |
+| [`ecc-design-system`](affaan-m/everything-claude-code/ecc-design-system) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/design-system) | MIT | Generate a design system from an existing codebase or audit one for visual consistency: extract tokens (colors, typography, spacing, shadows) into design-tokens.json and CSS custom… |
+| [`ecc-frontend-a11y`](affaan-m/everything-claude-code/ecc-frontend-a11y) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/frontend-a11y) | MIT | Accessibility patterns for React and Next.js — semantic HTML, ARIA attributes, form labeling, keyboard navigation, focus management, and screen reader support. Use when building or… |
+| [`ecc-frontend-design-direction`](affaan-m/everything-claude-code/ecc-frontend-design-direction) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/frontend-design-direction) | MIT | Set an ECC-specific frontend design direction for production UI work. Use when building or improving websites, dashboards, applications, components, landing pages, visual tools, or… |
+| [`ecc-frontend-patterns`](affaan-m/everything-claude-code/ecc-frontend-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/frontend-patterns) | MIT | Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices. Use when building or reviewing React or Next.js components, sta… |
+| [`ecc-liquid-glass-design`](affaan-m/everything-claude-code/ecc-liquid-glass-design) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/liquid-glass-design) | MIT | iOS 26 Liquid Glass design system — dynamic glass material with blur, reflection, and interactive morphing for SwiftUI, UIKit, and WidgetKit. Use when building iOS 26 Liquid Glass … |
+| [`ecc-make-interfaces-feel-better`](affaan-m/everything-claude-code/ecc-make-interfaces-feel-better) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/make-interfaces-feel-better) | MIT | Apply concrete design-engineering details that make interfaces feel polished. Use when reviewing or improving UI spacing, typography, borders, shadows, motion, hit areas, icons, te… |
+| [`ecc-nextjs-turbopack`](affaan-m/everything-claude-code/ecc-nextjs-turbopack) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/nextjs-turbopack) | MIT | Next.js 16+ and Turbopack guidance — incremental Rust bundling, file-system caching, faster dev startup and HMR, Turbopack vs webpack tradeoffs, and the middleware.ts to proxy.ts f… |
+| [`ecc-react-patterns`](affaan-m/everything-claude-code/ecc-react-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/react-patterns) | MIT | React 18/19 patterns including hooks discipline, server/client component boundaries, Suspense + error boundaries, form actions, data fetching, state management decision trees, and … |
+| [`ecc-react-performance`](affaan-m/everything-claude-code/ecc-react-performance) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/react-performance) | MIT | React and Next.js performance optimization patterns adapted from Vercel Engineering's React Best Practices (https://github.com/vercel-labs/agent-skills). Organizes 70+ rules across… |
+| [`ecc-seo`](affaan-m/everything-claude-code/ecc-seo) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/seo) | MIT | Audit, plan, and implement SEO improvements across technical SEO, on-page optimization, structured data, Core Web Vitals, and content strategy. Use when the user wants better searc… |
+| [`ecc-taste`](affaan-m/everything-claude-code/ecc-taste) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/taste) | MIT | Creative-direction layer for music videos and short-form edits in the angelcore / cloud-trance / hyperpop family — a named-genre aesthetic vocabulary, mood + color + light system, … |
+| [`ecc-taste-application`](affaan-m/everything-claude-code/ecc-taste-application) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/taste-application) | MIT | Generate new video against a distilled style pack and cut it into a finished piece - plan takes from the reference's cut rhythm, generate on fal, grade with the pack's measured LUT… |
+| [`ecc-taste-distillation`](affaan-m/everything-claude-code/ecc-taste-distillation) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/taste-distillation) | MIT | Measure a set of reference videos into a reusable style pack - colour grade as a 3D LUT, cut rhythm as a shot-length distribution, hero stills, screen-blend overlay plates, and a t… |
+| [`ecc-ui-demo`](affaan-m/everything-claude-code/ecc-ui-demo) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/ui-demo) | MIT | Record polished UI demo videos using Playwright. Use when the user asks to create a demo, walkthrough, screen recording, or tutorial video of a web application. Produces WebM video… |
+| [`ecc-vite-patterns`](affaan-m/everything-claude-code/ecc-vite-patterns) · [src](https://github.com/affaan-m/everything-claude-code/tree/HEAD/skills/vite-patterns) | MIT | Vite build tool patterns including config, plugins, HMR, env variables, proxy setup, SSR, library mode, dependency pre-bundling, and build optimization. Activate when working with … |
+
+## [wshobson/agents](https://github.com/wshobson/agents) · 13
+
+| Nom | Licence | Description |
 |---|---|---|
 | [`accessibility-compliance`](wshobson/agents/accessibility-compliance) · [src](https://github.com/wshobson/agents/tree/HEAD/plugins/ui-design/skills/accessibility-compliance) | MIT | Implement WCAG 2.2 compliant interfaces with mobile accessibility, inclusive design patterns, and assistive technology support. Use when auditing accessibility, implementing ARIA p… |
 | [`brand-landingpage`](wshobson/agents/brand-landingpage) · [src](https://github.com/wshobson/agents/tree/HEAD/plugins/brand-landingpage/skills/brand-landingpage) | MIT | Brand-first landing page designer — runs a brand-identity interview (colors, typography, shape language), then generates and iterates on a polished landing page via Stitch with dep… |
@@ -97,9 +119,9 @@ cp -r 01-web-design/<auteur>/<repo>/<skill> ~/.claude/skills/
 | [`wcag-audit-patterns`](wshobson/agents/wcag-audit-patterns) · [src](https://github.com/wshobson/agents/tree/HEAD/plugins/accessibility-compliance/skills/wcag-audit-patterns) | MIT | Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, o… |
 | [`web-component-design`](wshobson/agents/web-component-design) · [src](https://github.com/wshobson/agents/tree/HEAD/plugins/ui-design/skills/web-component-design) | MIT | Master React, Vue, and Svelte component patterns including CSS-in-JS, composition strategies, and reusable component architecture. Use when building UI component libraries, designi… |
 
-## [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills)  · 13 skills
+## [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) · 13
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
 |---|---|---|
 | [`threejs-animation`](CloudAI-X/threejs-skills/threejs-animation) · [src](https://github.com/CloudAI-X/threejs-skills/tree/HEAD/skills/threejs-animation) | MIT | Keyframe, skeletal and morph-target animation, procedural motion and clip blending, on WebGL or with WebGPU and TSL. Use when animating objects, playing glTF animations, posing bon… |
 | [`threejs-asset-pipeline`](CloudAI-X/threejs-skills/threejs-asset-pipeline) · [src](https://github.com/CloudAI-X/threejs-skills/tree/HEAD/skills/threejs-asset-pipeline) | MIT | Shrinking glTF assets for three.js with gltf-transform: inspect, validate and optimize commands, Draco, meshopt and quantization, KTX2, WebP and AVIF textures, the loader setup eac… |
@@ -115,9 +137,23 @@ cp -r 01-web-design/<auteur>/<repo>/<skill> ~/.claude/skills/
 | [`threejs-shaders`](CloudAI-X/threejs-skills/threejs-shaders) · [src](https://github.com/CloudAI-X/threejs-skills/tree/HEAD/skills/threejs-shaders) | MIT | Custom GLSL vertex and fragment shaders: uniforms, varyings, shader chunks, extending built-in materials, instanced attributes, plus the same effects as node materials with TSL on … |
 | [`threejs-textures`](CloudAI-X/threejs-skills/threejs-textures) · [src](https://github.com/CloudAI-X/threejs-skills/tree/HEAD/skills/threejs-textures) | MIT | Three.js textures: image loading, color spaces, UV channels and transforms, texture types from canvas to HDR and KTX2, render targets, texture memory. Use when working with images … |
 
-## [greensock/gsap-skills](https://github.com/greensock/gsap-skills)  · 8 skills
+## [iart-ai/web-animation-skills](https://github.com/iart-ai/web-animation-skills) · 9
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
+|---|---|---|
+| [`60fps-animation`](iart-ai/web-animation-skills/60fps-animation) · [src](https://github.com/iart-ai/web-animation-skills/tree/HEAD/skills/60fps-animation) | MIT | This skill should be used when the user asks to "fix janky CSS animation", "make animation 60fps", "stop layout thrashing", "animate width/height/top/left smoothly", "convert anima… |
+| [`accessible-animation`](iart-ai/web-animation-skills/accessible-animation) · [src](https://github.com/iart-ai/web-animation-skills/tree/HEAD/skills/accessible-animation) | MIT | This skill should be used when the user asks to "respect prefers-reduced-motion", "honor reduced motion", "make my animations accessible", "fix vestibular / motion-sickness issues"… |
+| [`ascii-animation`](iart-ai/web-animation-skills/ascii-animation) · [src](https://github.com/iart-ai/web-animation-skills/tree/HEAD/skills/ascii-animation) | MIT | This skill should be used when the user asks to "make an ASCII animation", "build a terminal/CLI intro or loader", "convert an image or video to ASCII art", "add an ASCII shader/po… |
+| [`glassmorphism`](iart-ai/web-animation-skills/glassmorphism) · [src](https://github.com/iart-ai/web-animation-skills/tree/HEAD/skills/glassmorphism) | MIT | This skill should be used when the user asks to "add a glassmorphism effect", "frosted glass UI", "Apple liquid glass style", "frosted blur card", "translucent glass panel animatio… |
+| [`gsap-web`](iart-ai/web-animation-skills/gsap-web) · [src](https://github.com/iart-ai/web-animation-skills/tree/HEAD/skills/gsap-web) | MIT | This skill should be used when the user asks to "build a scroll animation", "add ScrollTrigger", "pin a section while scrolling", "scrub an animation to scroll", "create a hero tim… |
+| [`lottie-animation`](iart-ai/web-animation-skills/lottie-animation) · [src](https://github.com/iart-ai/web-animation-skills/tree/HEAD/skills/lottie-animation) | MIT | This skill should be used when the user asks to "add a Lottie animation", "play a .lottie or .json animation", "integrate a Bodymovin/After Effects animation on web or mobile", "co… |
+| [`micro-interaction`](iart-ai/web-animation-skills/micro-interaction) · [src](https://github.com/iart-ai/web-animation-skills/tree/HEAD/skills/micro-interaction) | MIT | This skill should be used when the user asks to "add a hover/press effect", "animate a toggle or switch", "build an animated like button", "make a toast/snackbar slide in", "animat… |
+| [`page-transition-animation`](iart-ai/web-animation-skills/page-transition-animation) · [src](https://github.com/iart-ai/web-animation-skills/tree/HEAD/skills/page-transition-animation) | MIT | This skill should be used when the user asks to "animate page or route transitions", "add a page transition or crossfade between views", "animate route changes in Next.js App Route… |
+| [`svg-animation`](iart-ai/web-animation-skills/svg-animation) · [src](https://github.com/iart-ai/web-animation-skills/tree/HEAD/skills/svg-animation) | MIT | This skill should be used when the user asks to "animate an SVG", "make a line draw itself on", "do a stroke draw-on / signature animation", "morph one shape into another", "move a… |
+
+## [greensock/gsap-skills](https://github.com/greensock/gsap-skills) · 8
+
+| Nom | Licence | Description |
 |---|---|---|
 | [`gsap-core`](greensock/gsap-skills/gsap-core) · [src](https://github.com/greensock/gsap-skills/tree/HEAD/skills/gsap-core) | MIT | Official GSAP skill for the core API — gsap.to(), from(), fromTo(), easing, duration, stagger, defaults, gsap.matchMedia() (responsive, prefers-reduced-motion). Use when the user a… |
 | [`gsap-frameworks`](greensock/gsap-skills/gsap-frameworks) · [src](https://github.com/greensock/gsap-skills/tree/HEAD/skills/gsap-frameworks) | MIT | Official GSAP skill for Vue, Svelte, and other non-React frameworks — lifecycle, scoping selectors, cleanup on unmount. Use when the user wants animation in Vue, Nuxt, Svelte, Svel… |
@@ -128,9 +164,9 @@ cp -r 01-web-design/<auteur>/<repo>/<skill> ~/.claude/skills/
 | [`gsap-timeline`](greensock/gsap-skills/gsap-timeline) · [src](https://github.com/greensock/gsap-skills/tree/HEAD/skills/gsap-timeline) | MIT | Official GSAP skill for timelines — gsap.timeline(), position parameter, nesting, playback. Use when sequencing animations, choreographing keyframes, or when the user asks about an… |
 | [`gsap-utils`](greensock/gsap-skills/gsap-utils) · [src](https://github.com/greensock/gsap-skills/tree/HEAD/skills/gsap-utils) | MIT | Official GSAP skill for gsap.utils — clamp, mapRange, normalize, interpolate, random, snap, toArray, wrap, pipe. Use when the user asks about gsap.utils, clamp, mapRange, random, s… |
 
-## [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)  · 6 skills
+## [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) · 6
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
 |---|---|---|
 | [`banner-design`](nextlevelbuilder/ui-ux-pro-max-skill/banner-design) · [src](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/HEAD/.claude/skills/banner-design) | MIT | Design banners for social media, ads, website heroes, creative assets, and print. Multiple art direction options with optional generated or supplied visuals. Actions: design, creat… |
 | [`brand`](nextlevelbuilder/ui-ux-pro-max-skill/brand) · [src](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/HEAD/.claude/skills/brand) | MIT | Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, tone of voice, marketing assets, brand compliance, style guid… |
@@ -139,9 +175,9 @@ cp -r 01-web-design/<auteur>/<repo>/<skill> ~/.claude/skills/
 | [`ui-styling`](nextlevelbuilder/ui-ux-pro-max-skill/ui-styling) · [src](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/HEAD/.claude/skills/ui-styling) | Apache-2.0 | Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when… |
 | [`ui-ux-pro-max`](nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max) · [src](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/HEAD/.claude/skills/ui-ux-pro-max) | MIT | UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design sys… |
 
-## [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)  · 6 skills
+## [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) · 6
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
 |---|---|---|
 | [`design-md`](google-labs-code/stitch-skills/design-md) · [src](https://github.com/google-labs-code/stitch-skills/tree/HEAD/plugins/stitch-utilities/skills/design-md) | Apache-2.0 | Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files |
 | [`enhance-prompt`](google-labs-code/stitch-skills/enhance-prompt) · [src](https://github.com/google-labs-code/stitch-skills/tree/HEAD/plugins/stitch-utilities/skills/enhance-prompt) | Apache-2.0 | Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better genera… |
@@ -150,9 +186,9 @@ cp -r 01-web-design/<auteur>/<repo>/<skill> ~/.claude/skills/
 | [`shadcn-ui`](google-labs-code/stitch-skills/shadcn-ui) · [src](https://github.com/google-labs-code/stitch-skills/tree/HEAD/plugins/stitch-build/skills/shadcn-ui) | Apache-2.0 | Expert guidance for integrating and building applications with shadcn/ui components, including component discovery, installation, customization, and best practices. |
 | [`taste-design`](google-labs-code/stitch-skills/taste-design) · [src](https://github.com/google-labs-code/stitch-skills/tree/HEAD/plugins/stitch-utilities/skills/taste-design) | Apache-2.0 | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asym… |
 
-## [accesslint/claude-marketplace](https://github.com/accesslint/claude-marketplace)  · 5 skills
+## [accesslint/claude-marketplace](https://github.com/accesslint/claude-marketplace) · 5
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
 |---|---|---|
 | [`accessibility-audit`](accesslint/claude-marketplace/accessibility-audit) · [src](https://github.com/accesslint/claude-marketplace/tree/HEAD/plugins/accesslint/skills/accessibility-audit) | MIT (README) | Whole site or product — a full web accessibility (a11y) audit against WCAG 2.2, following the WCAG-EM methodology. Defines scope, samples representative pages and flows, runs the a… |
 | [`accessibility-diff`](accesslint/claude-marketplace/accessibility-diff) · [src](https://github.com/accesslint/claude-marketplace/tree/HEAD/plugins/accesslint/skills/accessibility-diff) | MIT (README) | Regression check — diff a live page's web accessibility (a11y) violations against a baseline. By default it compares your uncommitted changes (stash-based); pass `--branch [<name>]… |
@@ -160,55 +196,83 @@ cp -r 01-web-design/<auteur>/<repo>/<skill> ~/.claude/skills/
 | [`accessibility-inspect`](accesslint/claude-marketplace/accessibility-inspect) · [src](https://github.com/accesslint/claude-marketplace/tree/HEAD/plugins/accesslint/skills/accessibility-inspect) | MIT (README) | One page, hands-on manual tier — drive a live page through the web accessibility (a11y) checks a rule engine can't decide: keyboard operation and focus order, screen-reader names, … |
 | [`accessibility-scan`](accesslint/claude-marketplace/accessibility-scan) · [src](https://github.com/accesslint/claude-marketplace/tree/HEAD/plugins/accesslint/skills/accessibility-scan) | MIT (README) | One page, automated tier — run the web accessibility (a11y) rule engine against a live page and locate every violation it can detect mechanically. Pass a URL, a config target name … |
 
-## [anthropics/skills](https://github.com/anthropics/skills)  · 4 skills
+## [anthropics/skills](https://github.com/anthropics/skills) · 4
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
 |---|---|---|
 | [`canvas-design`](anthropics/skills/canvas-design) · [src](https://github.com/anthropics/skills/tree/HEAD/skills/canvas-design) | Apache-2.0 | Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other stat… |
 | [`frontend-design`](anthropics/skills/frontend-design) · [src](https://github.com/anthropics/skills/tree/HEAD/skills/frontend-design) | Apache-2.0 | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't rea… |
 | [`theme-factory`](anthropics/skills/theme-factory) · [src](https://github.com/anthropics/skills/tree/HEAD/skills/theme-factory) | Apache-2.0 | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can app… |
 | [`web-artifacts-builder`](anthropics/skills/web-artifacts-builder) · [src](https://github.com/anthropics/skills/tree/HEAD/skills/web-artifacts-builder) | Apache-2.0 | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts r… |
 
-## [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)  · 4 skills
+## [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) · 4
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
 |---|---|---|
 | [`composition-patterns`](vercel-labs/agent-skills/composition-patterns) · [src](https://github.com/vercel-labs/agent-skills/tree/HEAD/skills/composition-patterns) | MIT (README) | React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers … |
 | [`react-best-practices`](vercel-labs/agent-skills/react-best-practices) · [src](https://github.com/vercel-labs/agent-skills/tree/HEAD/skills/react-best-practices) | MIT (README) | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optima… |
 | [`react-view-transitions`](vercel-labs/agent-skills/react-view-transitions) · [src](https://github.com/vercel-labs/agent-skills/tree/HEAD/skills/react-view-transitions) | MIT (README) | Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elemen… |
 | [`web-design-guidelines`](vercel-labs/agent-skills/web-design-guidelines) · [src](https://github.com/vercel-labs/agent-skills/tree/HEAD/skills/web-design-guidelines) | MIT (README) | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practic… |
 
-## [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)  · 1 skills
+## [iart-ai/webgl-animation-skills](https://github.com/iart-ai/webgl-animation-skills) · 3
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
+|---|---|---|
+| [`particle-system`](iart-ai/webgl-animation-skills/particle-system) · [src](https://github.com/iart-ai/webgl-animation-skills/tree/HEAD/skills/particle-system) | MIT | This skill should be used when the user asks to "build a particle system", "make confetti/snow/smoke/sparks", "create a connected-dot/constellation network background", "add a flow… |
+| [`shader-glsl`](iart-ai/webgl-animation-skills/shader-glsl) · [src](https://github.com/iart-ai/webgl-animation-skills/tree/HEAD/skills/shader-glsl) | MIT | This skill should be used when the user asks to "write a fragment shader", "make a GLSL gradient/noise/plasma background", "create an image transition (dissolve, displacement, glit… |
+| [`threejs-animation`](iart-ai/webgl-animation-skills/threejs-animation) · [src](https://github.com/iart-ai/webgl-animation-skills/tree/HEAD/skills/threejs-animation) | MIT | This skill should be used when the user asks to "build a 3D hero section or WebGL background", "animate a Three.js scene", "play or crossfade GLTF animation clips", "move/lerp the … |
+
+## [iart-ai/javascript-animation-skills](https://github.com/iart-ai/javascript-animation-skills) · 2
+
+| Nom | Licence | Description |
+|---|---|---|
+| [`javascript-animation`](iart-ai/javascript-animation-skills/javascript-animation) · [src](https://github.com/iart-ai/javascript-animation-skills/tree/HEAD/skills/javascript-animation) | MIT | This skill should be used when the user asks to "draw every frame in JavaScript", "make an animation with no image assets", "animate this in code / on a canvas", "make a hand-drawn… |
+| [`soundtrack`](iart-ai/javascript-animation-skills/soundtrack) · [src](https://github.com/iart-ai/javascript-animation-skills/tree/HEAD/skills/soundtrack) | MIT | This skill should be used when the user asks to "add music to the animation", "make the music in code", "synthesize a soundtrack", "compose background music that fits the cuts", "s… |
+
+## [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) · 1
+
+| Nom | Licence | Description |
 |---|---|---|
 | [`taste-skill`](Leonxlnx/taste-skill/taste-skill) · [src](https://github.com/Leonxlnx/taste-skill/tree/HEAD/skills/taste-skill) | MIT | tasteskill v2, the anti-slop frontend skill. Art direction for websites, distilled from a study of 247 curated gallery sites (One Page Love, Awwwards Sites of the Day). Deals resea… |
 
-## [Dammyjay93/interface-design](https://github.com/Dammyjay93/interface-design)  · 1 skills
+## [Dammyjay93/interface-design](https://github.com/Dammyjay93/interface-design) · 1
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
 |---|---|---|
 | [`interface-design`](Dammyjay93/interface-design/interface-design) · [src](https://github.com/Dammyjay93/interface-design/tree/HEAD/.claude/skills/interface-design) | MIT | Craft-first interface design for dashboards, admin panels, SaaS apps, tools, settings pages, data interfaces, and interactive products. Use when designing, building, reviewing, aud… |
 
-## [pbakaus/impeccable](https://github.com/pbakaus/impeccable)  · 1 skills
+## [pbakaus/impeccable](https://github.com/pbakaus/impeccable) · 1
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
 |---|---|---|
 | [`impeccable`](pbakaus/impeccable/impeccable) · [src](https://github.com/pbakaus/impeccable/tree/HEAD/.claude/skills/impeccable) | Apache-2.0 | Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboar… |
 
-## [alonw0/web-asset-generator](https://github.com/alonw0/web-asset-generator)  · 1 skills
+## [KAOPU-XiaoPu/web-design](https://github.com/KAOPU-XiaoPu/web-design) · 1
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
+|---|---|---|
+| [`web-design-spec-first`](KAOPU-XiaoPu/web-design/web-design-spec-first) · [src](https://github.com/KAOPU-XiaoPu/web-design/tree/HEAD/.) | MIT | Web 视觉设计 SKILL。输入 PRD / 参考 URL / 截图 / 关键词（任意组合），先产出一份标准化 DESIGN.md 设计规范，用户确认后据此生成 UI/UX、视觉、动效、响应式全部达标的 web 代码。专攻 web 端：Landing Page、Portfolio、产品页、博客、个人站、SaaS 介绍页等。当用户说"帮我做个网站""设计一个… |
+
+## [199-biotechnologies/motion-dev-animations-skill](https://github.com/199-biotechnologies/motion-dev-animations-skill) · 1
+
+| Nom | Licence | Description |
+|---|---|---|
+| [`motion-dev-animations`](199-biotechnologies/motion-dev-animations-skill/motion-dev-animations) · [src](https://github.com/199-biotechnologies/motion-dev-animations-skill/tree/HEAD/.) | MIT | Creates 120fps GPU-accelerated animations with Motion.dev (Framer Motion successor) for React, Next.js, Svelte, and Astro projects. Use when user requests animation, motion, scroll… |
+
+## [alonw0/web-asset-generator](https://github.com/alonw0/web-asset-generator) · 1
+
+| Nom | Licence | Description |
 |---|---|---|
 | [`web-asset-generator`](alonw0/web-asset-generator/web-asset-generator) · [src](https://github.com/alonw0/web-asset-generator/tree/HEAD/skills/web-asset-generator) | MIT | Generate web assets including favicons, app icons (PWA), and social media meta images (Open Graph) for Facebook, Twitter, WhatsApp, and LinkedIn. Use when users need icons, favicon… |
 
-## [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides)  · 1 skills
+## [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) · 1
 
-| Skill | Licence | Description |
+| Nom | Licence | Description |
 |---|---|---|
 | [`frontend-slides`](zarazhangrui/frontend-slides/frontend-slides) · [src](https://github.com/zarazhangrui/frontend-slides/tree/HEAD/plugins/frontend-slides/skills/frontend-slides) | MIT | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or cr… |
 
-## 🔗 Référencés (non copiés — licence ou format)
+## 🔗 Référencés (non copiés — licence, format ou runtime)
 
-- [Figma skills (OpenAI curated)](https://github.com/openai/skills/tree/main/skills/.curated) — Figma Developer Terms → non redistribuable, installer depuis la source (figma-implement-design, figma-generate-design…)
-- [shadcn/ui skill officiel](https://ui.shadcn.com/docs/skills) — Doc officielle shadcn
+- [Figma skills (OpenAI curated)](https://github.com/openai/skills/tree/main/skills/.curated) — Figma Developer Terms → non redistribuable
+- [shadcn/ui skill officiel](https://ui.shadcn.com/docs/skills) — Doc officielle
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) — 864 skills, pas de licence racine → liste à explorer
