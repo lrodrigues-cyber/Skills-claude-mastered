@@ -48,7 +48,7 @@ tools/build.sh · tools/gen.py · .manifest        reconstruction reproductible 
 
 ## Licences & crédits
 
-Chaque dossier garde sa licence d'origine (MIT, Apache-2.0, CC-BY-SA-4.0 pour Trail of Bits, GPL-3.0 pour blender-mcp-bridge). Tout le mérite revient aux auteurs. Les modifications futures d'un skill CC-BY-SA / GPL restent sous la même licence. Trois plugins sont renommés dans le marketplace (`setup`, `md-management`, `reflect`) car les noms `claude-*` sont réservés à Anthropic.
+Chaque dossier garde sa licence d'origine (MIT, Apache-2.0, CC-BY-SA-4.0 pour Trail of Bits, GPL-3.0 pour blender-mcp-bridge). Tout le mérite revient aux auteurs. Les modifications futures d'un skill CC-BY-SA / GPL restent sous la même licence. Trois plugins sont renommés dans le marketplace (`code-setup`, `md-management`, `reflect`) car les noms `claude-*` sont réservés à Anthropic.
 
 ⚠️ Skills et hooks exécutent du code. Relire `SKILL.md`, `scripts/` et `hooks/` avant usage.
 
